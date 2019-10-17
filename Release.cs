@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/release.proto</summary>
   public static partial class ReleaseReflection {
@@ -34,13 +34,13 @@ namespace Contracts.V1 {
             "MS5Fc3RhZmV0dGVFdmVudBIvCgtpbnNlcnRlZF9hdBgJIAEoCzIaLmdvb2ds",
             "ZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKdXBkYXRlZF9hdBgKIAEoCzIaLmdv",
             "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASKwoIZHVyYXRpb24YCyABKAsyGS5n",
-            "b29nbGUucHJvdG9idWYuRHVyYXRpb25CQVo/Z2l0aHViLmNvbS9lc3RhZmV0",
+            "b29nbGUucHJvdG9idWYuRHVyYXRpb25CXVo/Z2l0aHViLmNvbS9lc3RhZmV0",
             "dGUvZXN0YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvY29udHJhY3RzX3Yx",
-            "YgZwcm90bzM="));
+            "qgIZRXN0YWZldHRlLkNJLkNvbnRyYWN0cy5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafetteEventReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.Release), global::Contracts.V1.Release.Parser, new[]{ "Name", "Action", "Id", "RepoSource", "RepoOwner", "ReleaseVersion", "ReleaseStatus", "Events", "InsertedAt", "UpdatedAt", "Duration" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Release), global::Estafette.CI.Contracts.V1.Release.Parser, new[]{ "Name", "Action", "Id", "RepoSource", "RepoOwner", "ReleaseVersion", "ReleaseStatus", "Events", "InsertedAt", "UpdatedAt", "Duration" }, null, null, null)
           }));
     }
     #endregion
@@ -55,7 +55,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.ReleaseReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.ReleaseReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -170,11 +170,11 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "events" field.</summary>
     public const int EventsFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteEvent> _repeated_events_codec
-        = pb::FieldCodec.ForMessage(66, global::Manifest.V1.EstafetteEvent.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteEvent> events_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteEvent>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteEvent> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(66, global::Estafette.CI.Manifest.V1.EstafetteEvent.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent> events_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteEvent> Events {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent> Events {
       get { return events_; }
     }
 

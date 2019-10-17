@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/release_target.proto</summary>
   public static partial class ReleaseTargetReflection {
@@ -29,13 +29,13 @@ namespace Contracts.V1 {
             "b3RvGhpjb250cmFjdHMudjEvcmVsZWFzZS5wcm90byKDAQoNUmVsZWFzZVRh",
             "cmdldBIMCgRuYW1lGAEgASgJEjQKB2FjdGlvbnMYAiADKAsyIy5tYW5pZmVz",
             "dC52MS5Fc3RhZmV0dGVSZWxlYXNlQWN0aW9uEi4KD2FjdGl2ZV9yZWxlYXNl",
-            "cxgDIAMoCzIVLmNvbnRyYWN0cy52MS5SZWxlYXNlQkFaP2dpdGh1Yi5jb20v",
+            "cxgDIAMoCzIVLmNvbnRyYWN0cy52MS5SZWxlYXNlQl1aP2dpdGh1Yi5jb20v",
             "ZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRy",
-            "YWN0c192MWIGcHJvdG8z"));
+            "YWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafetteReleaseActionReflection.Descriptor, global::Contracts.V1.ReleaseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteReleaseActionReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.ReleaseTarget), global::Contracts.V1.ReleaseTarget.Parser, new[]{ "Name", "Actions", "ActiveReleases" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.ReleaseTarget), global::Estafette.CI.Contracts.V1.ReleaseTarget.Parser, new[]{ "Name", "Actions", "ActiveReleases" }, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.ReleaseTargetReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.ReleaseTargetReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -91,21 +91,21 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "actions" field.</summary>
     public const int ActionsFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteReleaseAction> _repeated_actions_codec
-        = pb::FieldCodec.ForMessage(18, global::Manifest.V1.EstafetteReleaseAction.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteReleaseAction> actions_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteReleaseAction>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction> _repeated_actions_codec
+        = pb::FieldCodec.ForMessage(18, global::Estafette.CI.Manifest.V1.EstafetteReleaseAction.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction> actions_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteReleaseAction> Actions {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction> Actions {
       get { return actions_; }
     }
 
     /// <summary>Field number for the "active_releases" field.</summary>
     public const int ActiveReleasesFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Contracts.V1.Release> _repeated_activeReleases_codec
-        = pb::FieldCodec.ForMessage(26, global::Contracts.V1.Release.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.Release> activeReleases_ = new pbc::RepeatedField<global::Contracts.V1.Release>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.Release> _repeated_activeReleases_codec
+        = pb::FieldCodec.ForMessage(26, global::Estafette.CI.Contracts.V1.Release.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.Release> activeReleases_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.Release>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.Release> ActiveReleases {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.Release> ActiveReleases {
       get { return activeReleases_; }
     }
 

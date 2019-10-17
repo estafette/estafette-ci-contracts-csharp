@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/label.proto</summary>
   public static partial class LabelReflection {
@@ -25,13 +25,13 @@ namespace Contracts.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Chhjb250cmFjdHMudjEvbGFiZWwucHJvdG8SDGNvbnRyYWN0cy52MSIjCgVM",
-            "YWJlbBILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAlCQVo/Z2l0aHViLmNv",
+            "YWJlbBILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAlCXVo/Z2l0aHViLmNv",
             "bS9lc3RhZmV0dGUvZXN0YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvY29u",
-            "dHJhY3RzX3YxYgZwcm90bzM="));
+            "dHJhY3RzX3YxqgIZRXN0YWZldHRlLkNJLkNvbnRyYWN0cy5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.Label), global::Contracts.V1.Label.Parser, new[]{ "Key", "Value" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Label), global::Estafette.CI.Contracts.V1.Label.Parser, new[]{ "Key", "Value" }, null, null, null)
           }));
     }
     #endregion
@@ -46,7 +46,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.LabelReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.LabelReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

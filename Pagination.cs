@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/pagination.proto</summary>
   public static partial class PaginationReflection {
@@ -26,13 +26,14 @@ namespace Contracts.V1 {
           string.Concat(
             "Ch1jb250cmFjdHMudjEvcGFnaW5hdGlvbi5wcm90bxIMY29udHJhY3RzLnYx",
             "IlIKClBhZ2luYXRpb24SDAoEcGFnZRgBIAEoAxIMCgRzaXplGAIgASgDEhMK",
-            "C3RvdGFsX3BhZ2VzGAMgASgDEhMKC3RvdGFsX2l0ZW1zGAQgASgDQkFaP2dp",
+            "C3RvdGFsX3BhZ2VzGAMgASgDEhMKC3RvdGFsX2l0ZW1zGAQgASgDQl1aP2dp",
             "dGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29s",
-            "YW5nL2NvbnRyYWN0c192MWIGcHJvdG8z"));
+            "YW5nL2NvbnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.Pagination), global::Contracts.V1.Pagination.Parser, new[]{ "Page", "Size", "TotalPages", "TotalItems" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Pagination), global::Estafette.CI.Contracts.V1.Pagination.Parser, new[]{ "Page", "Size", "TotalPages", "TotalItems" }, null, null, null)
           }));
     }
     #endregion
@@ -47,7 +48,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.PaginationReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.PaginationReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

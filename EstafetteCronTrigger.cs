@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_cron_trigger.proto</summary>
   public static partial class EstafetteCronTriggerReflection {
@@ -26,12 +26,13 @@ namespace Manifest.V1 {
           string.Concat(
             "CihtYW5pZmVzdC52MS9lc3RhZmV0dGVfY3Jvbl90cmlnZ2VyLnByb3RvEgtt",
             "YW5pZmVzdC52MSIoChRFc3RhZmV0dGVDcm9uVHJpZ2dlchIQCghzY2hlZHVs",
-            "ZRgBIAEoCUJAWj5naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2kt",
-            "Y29udHJhY3RzLWdvbGFuZy9tYW5pZmVzdF92MWIGcHJvdG8z"));
+            "ZRgBIAEoCUJbWj5naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2kt",
+            "Y29udHJhY3RzLWdvbGFuZy9tYW5pZmVzdF92MaoCGEVzdGFmZXR0ZS5DSS5N",
+            "YW5pZmVzdC5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteCronTrigger), global::Manifest.V1.EstafetteCronTrigger.Parser, new[]{ "Schedule" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteCronTrigger), global::Estafette.CI.Manifest.V1.EstafetteCronTrigger.Parser, new[]{ "Schedule" }, null, null, null)
           }));
     }
     #endregion
@@ -46,7 +47,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteCronTriggerReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteCronTriggerReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

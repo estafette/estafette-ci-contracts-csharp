@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/build.proto</summary>
   public static partial class BuildReflection {
@@ -43,12 +43,13 @@ namespace Contracts.V1 {
             "C2luc2VydGVkX2F0GBAgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
             "cBIuCgp1cGRhdGVkX2F0GBEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
             "dGFtcBIrCghkdXJhdGlvbhgSIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJh",
-            "dGlvbkJBWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29u",
-            "dHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjFiBnByb3RvMw=="));
+            "dGlvbkJdWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29u",
+            "dHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29u",
+            "dHJhY3RzLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Contracts.V1.LabelReflection.Descriptor, global::Contracts.V1.ReleaseTargetReflection.Descriptor, global::Contracts.V1.GitCommitReflection.Descriptor, global::Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Manifest.V1.EstafetteEventReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.LabelReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseTargetReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitCommitReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.Build), global::Contracts.V1.Build.Parser, new[]{ "Id", "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "RepoRevision", "BuildVersion", "BuildStatus", "Labels", "ReleaseTargets", "Manifest", "ManifestWithDefaults", "Commits", "Triggers", "Events", "InsertedAt", "UpdatedAt", "Duration" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Build), global::Estafette.CI.Contracts.V1.Build.Parser, new[]{ "Id", "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "RepoRevision", "BuildVersion", "BuildStatus", "Labels", "ReleaseTargets", "Manifest", "ManifestWithDefaults", "Commits", "Triggers", "Events", "InsertedAt", "UpdatedAt", "Duration" }, null, null, null)
           }));
     }
     #endregion
@@ -63,7 +64,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.BuildReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.BuildReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -196,21 +197,21 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "labels" field.</summary>
     public const int LabelsFieldNumber = 9;
-    private static readonly pb::FieldCodec<global::Contracts.V1.Label> _repeated_labels_codec
-        = pb::FieldCodec.ForMessage(74, global::Contracts.V1.Label.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.Label> labels_ = new pbc::RepeatedField<global::Contracts.V1.Label>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.Label> _repeated_labels_codec
+        = pb::FieldCodec.ForMessage(74, global::Estafette.CI.Contracts.V1.Label.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.Label> labels_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.Label>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.Label> Labels {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.Label> Labels {
       get { return labels_; }
     }
 
     /// <summary>Field number for the "release_targets" field.</summary>
     public const int ReleaseTargetsFieldNumber = 10;
-    private static readonly pb::FieldCodec<global::Contracts.V1.ReleaseTarget> _repeated_releaseTargets_codec
-        = pb::FieldCodec.ForMessage(82, global::Contracts.V1.ReleaseTarget.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.ReleaseTarget> releaseTargets_ = new pbc::RepeatedField<global::Contracts.V1.ReleaseTarget>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.ReleaseTarget> _repeated_releaseTargets_codec
+        = pb::FieldCodec.ForMessage(82, global::Estafette.CI.Contracts.V1.ReleaseTarget.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.ReleaseTarget> releaseTargets_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.ReleaseTarget>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.ReleaseTarget> ReleaseTargets {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.ReleaseTarget> ReleaseTargets {
       get { return releaseTargets_; }
     }
 
@@ -238,31 +239,31 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "commits" field.</summary>
     public const int CommitsFieldNumber = 13;
-    private static readonly pb::FieldCodec<global::Contracts.V1.GitCommit> _repeated_commits_codec
-        = pb::FieldCodec.ForMessage(106, global::Contracts.V1.GitCommit.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.GitCommit> commits_ = new pbc::RepeatedField<global::Contracts.V1.GitCommit>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.GitCommit> _repeated_commits_codec
+        = pb::FieldCodec.ForMessage(106, global::Estafette.CI.Contracts.V1.GitCommit.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.GitCommit> commits_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.GitCommit>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.GitCommit> Commits {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.GitCommit> Commits {
       get { return commits_; }
     }
 
     /// <summary>Field number for the "triggers" field.</summary>
     public const int TriggersFieldNumber = 14;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteTrigger> _repeated_triggers_codec
-        = pb::FieldCodec.ForMessage(114, global::Manifest.V1.EstafetteTrigger.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger> triggers_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteTrigger> _repeated_triggers_codec
+        = pb::FieldCodec.ForMessage(114, global::Estafette.CI.Manifest.V1.EstafetteTrigger.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger> triggers_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger> Triggers {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger> Triggers {
       get { return triggers_; }
     }
 
     /// <summary>Field number for the "events" field.</summary>
     public const int EventsFieldNumber = 15;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteEvent> _repeated_events_codec
-        = pb::FieldCodec.ForMessage(122, global::Manifest.V1.EstafetteEvent.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteEvent> events_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteEvent>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteEvent> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(122, global::Estafette.CI.Manifest.V1.EstafetteEvent.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent> events_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteEvent> Events {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent> Events {
       get { return events_; }
     }
 

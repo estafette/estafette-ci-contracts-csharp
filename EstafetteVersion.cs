@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_version.proto</summary>
   public static partial class EstafetteVersionReflection {
@@ -29,13 +29,14 @@ namespace Manifest.V1 {
             "cm90bxoqbWFuaWZlc3QudjEvZXN0YWZldHRlX2N1c3RvbV92ZXJzaW9uLnBy",
             "b3RvInwKEEVzdGFmZXR0ZVZlcnNpb24SMwoGc2VtdmVyGAEgASgLMiMubWFu",
             "aWZlc3QudjEuRXN0YWZldHRlU2VtdmVyVmVyc2lvbhIzCgZjdXN0b20YAiAB",
-            "KAsyIy5tYW5pZmVzdC52MS5Fc3RhZmV0dGVDdXN0b21WZXJzaW9uQkBaPmdp",
+            "KAsyIy5tYW5pZmVzdC52MS5Fc3RhZmV0dGVDdXN0b21WZXJzaW9uQltaPmdp",
             "dGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29s",
-            "YW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "YW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRlLkNJLk1hbmlmZXN0LlYxYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafetteSemverVersionReflection.Descriptor, global::Manifest.V1.EstafetteCustomVersionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteSemverVersionReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteCustomVersionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteVersion), global::Manifest.V1.EstafetteVersion.Parser, new[]{ "Semver", "Custom" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteVersion), global::Estafette.CI.Manifest.V1.EstafetteVersion.Parser, new[]{ "Semver", "Custom" }, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +51,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteVersionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteVersionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -79,9 +80,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "semver" field.</summary>
     public const int SemverFieldNumber = 1;
-    private global::Manifest.V1.EstafetteSemverVersion semver_;
+    private global::Estafette.CI.Manifest.V1.EstafetteSemverVersion semver_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteSemverVersion Semver {
+    public global::Estafette.CI.Manifest.V1.EstafetteSemverVersion Semver {
       get { return semver_; }
       set {
         semver_ = value;
@@ -90,9 +91,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "custom" field.</summary>
     public const int CustomFieldNumber = 2;
-    private global::Manifest.V1.EstafetteCustomVersion custom_;
+    private global::Estafette.CI.Manifest.V1.EstafetteCustomVersion custom_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteCustomVersion Custom {
+    public global::Estafette.CI.Manifest.V1.EstafetteCustomVersion Custom {
       get { return custom_; }
       set {
         custom_ = value;
@@ -170,13 +171,13 @@ namespace Manifest.V1 {
       }
       if (other.semver_ != null) {
         if (semver_ == null) {
-          semver_ = new global::Manifest.V1.EstafetteSemverVersion();
+          semver_ = new global::Estafette.CI.Manifest.V1.EstafetteSemverVersion();
         }
         Semver.MergeFrom(other.Semver);
       }
       if (other.custom_ != null) {
         if (custom_ == null) {
-          custom_ = new global::Manifest.V1.EstafetteCustomVersion();
+          custom_ = new global::Estafette.CI.Manifest.V1.EstafetteCustomVersion();
         }
         Custom.MergeFrom(other.Custom);
       }
@@ -193,14 +194,14 @@ namespace Manifest.V1 {
             break;
           case 10: {
             if (semver_ == null) {
-              semver_ = new global::Manifest.V1.EstafetteSemverVersion();
+              semver_ = new global::Estafette.CI.Manifest.V1.EstafetteSemverVersion();
             }
             input.ReadMessage(semver_);
             break;
           }
           case 18: {
             if (custom_ == null) {
-              custom_ = new global::Manifest.V1.EstafetteCustomVersion();
+              custom_ = new global::Estafette.CI.Manifest.V1.EstafetteCustomVersion();
             }
             input.ReadMessage(custom_);
             break;

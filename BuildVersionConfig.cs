@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/build_version_config.proto</summary>
   public static partial class BuildVersionConfigReflection {
@@ -27,13 +27,14 @@ namespace Contracts.V1 {
             "Cidjb250cmFjdHMudjEvYnVpbGRfdmVyc2lvbl9jb25maWcucHJvdG8SDGNv",
             "bnRyYWN0cy52MSJ5ChJCdWlsZFZlcnNpb25Db25maWcSDwoHdmVyc2lvbhgB",
             "IAEoCRINCgVtYWpvchgCIAEoAxINCgVtaW5vchgDIAEoAxINCgVwYXRjaBgE",
-            "IAEoCRINCgVsYWJlbBgFIAEoCRIWCg5hdXRvX2luY3JlbWVudBgGIAEoA0JB",
+            "IAEoCRINCgVsYWJlbBgFIAEoCRIWCg5hdXRvX2luY3JlbWVudBgGIAEoA0Jd",
             "Wj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3Rz",
-            "LWdvbGFuZy9jb250cmFjdHNfdjFiBnByb3RvMw=="));
+            "LWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3Rz",
+            "LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.BuildVersionConfig), global::Contracts.V1.BuildVersionConfig.Parser, new[]{ "Version", "Major", "Minor", "Patch", "Label", "AutoIncrement" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.BuildVersionConfig), global::Estafette.CI.Contracts.V1.BuildVersionConfig.Parser, new[]{ "Version", "Major", "Minor", "Patch", "Label", "AutoIncrement" }, null, null, null)
           }));
     }
     #endregion
@@ -48,7 +49,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.BuildVersionConfigReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.BuildVersionConfigReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

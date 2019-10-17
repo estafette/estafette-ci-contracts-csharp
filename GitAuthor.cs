@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/git_author.proto</summary>
   public static partial class GitAuthorReflection {
@@ -26,12 +26,13 @@ namespace Contracts.V1 {
           string.Concat(
             "Ch1jb250cmFjdHMudjEvZ2l0X2F1dGhvci5wcm90bxIMY29udHJhY3RzLnYx",
             "IjoKCUdpdEF1dGhvchINCgVlbWFpbBgBIAEoCRIMCgRuYW1lGAIgASgJEhAK",
-            "CHVzZXJuYW1lGAMgASgJQkFaP2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFm",
-            "ZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MWIGcHJvdG8z"));
+            "CHVzZXJuYW1lGAMgASgJQl1aP2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFm",
+            "ZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVzdGFm",
+            "ZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.GitAuthor), global::Contracts.V1.GitAuthor.Parser, new[]{ "Email", "Name", "Username" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.GitAuthor), global::Estafette.CI.Contracts.V1.GitAuthor.Parser, new[]{ "Email", "Name", "Username" }, null, null, null)
           }));
     }
     #endregion
@@ -46,7 +47,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.GitAuthorReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.GitAuthorReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

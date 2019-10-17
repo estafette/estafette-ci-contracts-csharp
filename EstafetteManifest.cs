@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_manifest.proto</summary>
   public static partial class EstafetteManifestReflection {
@@ -40,12 +40,13 @@ namespace Manifest.V1 {
             "CHJlbGVhc2VzGAcgAygLMh0ubWFuaWZlc3QudjEuRXN0YWZldHRlUmVsZWFz",
             "ZRotCgtMYWJlbHNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6",
             "AjgBGjQKEkdsb2JhbEVudlZhcnNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFs",
-            "dWUYAiABKAk6AjgBQkBaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0",
-            "ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "dWUYAiABKAk6AjgBQltaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0",
+            "ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRl",
+            "LkNJLk1hbmlmZXN0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafetteBuilderReflection.Descriptor, global::Manifest.V1.EstafetteVersionReflection.Descriptor, global::Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Manifest.V1.EstafetteStageReflection.Descriptor, global::Manifest.V1.EstafetteReleaseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteBuilderReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteVersionReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteStageReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteReleaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteManifest), global::Manifest.V1.EstafetteManifest.Parser, new[]{ "Builder", "Labels", "Version", "GlobalEnvVars", "Triggers", "Stages", "Releases" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteManifest), global::Estafette.CI.Manifest.V1.EstafetteManifest.Parser, new[]{ "Builder", "Labels", "Version", "GlobalEnvVars", "Triggers", "Stages", "Releases" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
           }));
     }
     #endregion
@@ -60,7 +61,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteManifestReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteManifestReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -94,9 +95,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "builder" field.</summary>
     public const int BuilderFieldNumber = 1;
-    private global::Manifest.V1.EstafetteBuilder builder_;
+    private global::Estafette.CI.Manifest.V1.EstafetteBuilder builder_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteBuilder Builder {
+    public global::Estafette.CI.Manifest.V1.EstafetteBuilder Builder {
       get { return builder_; }
       set {
         builder_ = value;
@@ -115,9 +116,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 3;
-    private global::Manifest.V1.EstafetteVersion version_;
+    private global::Estafette.CI.Manifest.V1.EstafetteVersion version_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteVersion Version {
+    public global::Estafette.CI.Manifest.V1.EstafetteVersion Version {
       get { return version_; }
       set {
         version_ = value;
@@ -136,31 +137,31 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "triggers" field.</summary>
     public const int TriggersFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteTrigger> _repeated_triggers_codec
-        = pb::FieldCodec.ForMessage(42, global::Manifest.V1.EstafetteTrigger.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger> triggers_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteTrigger> _repeated_triggers_codec
+        = pb::FieldCodec.ForMessage(42, global::Estafette.CI.Manifest.V1.EstafetteTrigger.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger> triggers_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger> Triggers {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger> Triggers {
       get { return triggers_; }
     }
 
     /// <summary>Field number for the "stages" field.</summary>
     public const int StagesFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteStage> _repeated_stages_codec
-        = pb::FieldCodec.ForMessage(50, global::Manifest.V1.EstafetteStage.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteStage> stages_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteStage>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteStage> _repeated_stages_codec
+        = pb::FieldCodec.ForMessage(50, global::Estafette.CI.Manifest.V1.EstafetteStage.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteStage> stages_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteStage>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteStage> Stages {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteStage> Stages {
       get { return stages_; }
     }
 
     /// <summary>Field number for the "releases" field.</summary>
     public const int ReleasesFieldNumber = 7;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteRelease> _repeated_releases_codec
-        = pb::FieldCodec.ForMessage(58, global::Manifest.V1.EstafetteRelease.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteRelease> releases_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteRelease>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteRelease> _repeated_releases_codec
+        = pb::FieldCodec.ForMessage(58, global::Estafette.CI.Manifest.V1.EstafetteRelease.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteRelease> releases_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteRelease>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteRelease> Releases {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteRelease> Releases {
       get { return releases_; }
     }
 
@@ -255,14 +256,14 @@ namespace Manifest.V1 {
       }
       if (other.builder_ != null) {
         if (builder_ == null) {
-          builder_ = new global::Manifest.V1.EstafetteBuilder();
+          builder_ = new global::Estafette.CI.Manifest.V1.EstafetteBuilder();
         }
         Builder.MergeFrom(other.Builder);
       }
       labels_.Add(other.labels_);
       if (other.version_ != null) {
         if (version_ == null) {
-          version_ = new global::Manifest.V1.EstafetteVersion();
+          version_ = new global::Estafette.CI.Manifest.V1.EstafetteVersion();
         }
         Version.MergeFrom(other.Version);
       }
@@ -283,7 +284,7 @@ namespace Manifest.V1 {
             break;
           case 10: {
             if (builder_ == null) {
-              builder_ = new global::Manifest.V1.EstafetteBuilder();
+              builder_ = new global::Estafette.CI.Manifest.V1.EstafetteBuilder();
             }
             input.ReadMessage(builder_);
             break;
@@ -294,7 +295,7 @@ namespace Manifest.V1 {
           }
           case 26: {
             if (version_ == null) {
-              version_ = new global::Manifest.V1.EstafetteVersion();
+              version_ = new global::Estafette.CI.Manifest.V1.EstafetteVersion();
             }
             input.ReadMessage(version_);
             break;

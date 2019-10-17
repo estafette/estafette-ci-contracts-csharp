@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/list_response.proto</summary>
   public static partial class ListResponseReflection {
@@ -28,13 +28,13 @@ namespace Contracts.V1 {
             "LnYxGh1jb250cmFjdHMudjEvcGFnaW5hdGlvbi5wcm90bxoZZ29vZ2xlL3By",
             "b3RvYnVmL2FueS5wcm90byJhCgxMaXN0UmVzcG9uc2USIwoFaXRlbXMYASAD",
             "KAsyFC5nb29nbGUucHJvdG9idWYuQW55EiwKCnBhZ2luYXRpb24YAiABKAsy",
-            "GC5jb250cmFjdHMudjEuUGFnaW5hdGlvbkJBWj9naXRodWIuY29tL2VzdGFm",
+            "GC5jb250cmFjdHMudjEuUGFnaW5hdGlvbkJdWj9naXRodWIuY29tL2VzdGFm",
             "ZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNf",
-            "djFiBnByb3RvMw=="));
+            "djGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3RzLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Contracts.V1.PaginationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.PaginationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.ListResponse), global::Contracts.V1.ListResponse.Parser, new[]{ "Items", "Pagination" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.ListResponse), global::Estafette.CI.Contracts.V1.ListResponse.Parser, new[]{ "Items", "Pagination" }, null, null, null)
           }));
     }
     #endregion
@@ -49,7 +49,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.ListResponseReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.ListResponseReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -88,9 +88,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "pagination" field.</summary>
     public const int PaginationFieldNumber = 2;
-    private global::Contracts.V1.Pagination pagination_;
+    private global::Estafette.CI.Contracts.V1.Pagination pagination_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.Pagination Pagination {
+    public global::Estafette.CI.Contracts.V1.Pagination Pagination {
       get { return pagination_; }
       set {
         pagination_ = value;
@@ -164,7 +164,7 @@ namespace Contracts.V1 {
       items_.Add(other.items_);
       if (other.pagination_ != null) {
         if (pagination_ == null) {
-          pagination_ = new global::Contracts.V1.Pagination();
+          pagination_ = new global::Estafette.CI.Contracts.V1.Pagination();
         }
         Pagination.MergeFrom(other.Pagination);
       }
@@ -185,7 +185,7 @@ namespace Contracts.V1 {
           }
           case 18: {
             if (pagination_ == null) {
-              pagination_ = new global::Contracts.V1.Pagination();
+              pagination_ = new global::Estafette.CI.Contracts.V1.Pagination();
             }
             input.ReadMessage(pagination_);
             break;

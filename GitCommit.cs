@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/git_commit.proto</summary>
   public static partial class GitCommitReflection {
@@ -27,12 +27,13 @@ namespace Contracts.V1 {
             "Ch1jb250cmFjdHMudjEvZ2l0X2NvbW1pdC5wcm90bxIMY29udHJhY3RzLnYx",
             "Gh1jb250cmFjdHMudjEvZ2l0X2F1dGhvci5wcm90byJFCglHaXRDb21taXQS",
             "DwoHbWVzc2FnZRgBIAEoCRInCgZhdXRob3IYAiABKAsyFy5jb250cmFjdHMu",
-            "djEuR2l0QXV0aG9yQkFaP2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0",
-            "ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MWIGcHJvdG8z"));
+            "djEuR2l0QXV0aG9yQl1aP2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0",
+            "ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVzdGFmZXR0",
+            "ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Contracts.V1.GitAuthorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.GitAuthorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.GitCommit), global::Contracts.V1.GitCommit.Parser, new[]{ "Message", "Author" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.GitCommit), global::Estafette.CI.Contracts.V1.GitCommit.Parser, new[]{ "Message", "Author" }, null, null, null)
           }));
     }
     #endregion
@@ -47,7 +48,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.GitCommitReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.GitCommitReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -87,9 +88,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "author" field.</summary>
     public const int AuthorFieldNumber = 2;
-    private global::Contracts.V1.GitAuthor author_;
+    private global::Estafette.CI.Contracts.V1.GitAuthor author_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.GitAuthor Author {
+    public global::Estafette.CI.Contracts.V1.GitAuthor Author {
       get { return author_; }
       set {
         author_ = value;
@@ -170,7 +171,7 @@ namespace Contracts.V1 {
       }
       if (other.author_ != null) {
         if (author_ == null) {
-          author_ = new global::Contracts.V1.GitAuthor();
+          author_ = new global::Estafette.CI.Contracts.V1.GitAuthor();
         }
         Author.MergeFrom(other.Author);
       }
@@ -191,7 +192,7 @@ namespace Contracts.V1 {
           }
           case 18: {
             if (author_ == null) {
-              author_ = new global::Contracts.V1.GitAuthor();
+              author_ = new global::Estafette.CI.Contracts.V1.GitAuthor();
             }
             input.ReadMessage(author_);
             break;

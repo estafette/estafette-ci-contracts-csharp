@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/builder_config.proto</summary>
   public static partial class BuilderConfigReflection {
@@ -46,12 +46,13 @@ namespace Contracts.V1 {
             "Y29udHJhY3RzLnYxLkJ1aWxkVmVyc2lvbkNvbmZpZxIzCgtjcmVkZW50aWFs",
             "cxgOIAMoCzIeLmNvbnRyYWN0cy52MS5DcmVkZW50aWFsQ29uZmlnEjgKDnRy",
             "dXN0ZWRfaW1hZ2VzGA8gAygLMiAuY29udHJhY3RzLnYxLlRydXN0ZWRJbWFn",
-            "ZUNvbmZpZ0JBWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2kt",
-            "Y29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjFiBnByb3RvMw=="));
+            "ZUNvbmZpZ0JdWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2kt",
+            "Y29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0ku",
+            "Q29udHJhY3RzLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafetteManifestReflection.Descriptor, global::Manifest.V1.EstafetteEventReflection.Descriptor, global::Contracts.V1.CiServerConfigReflection.Descriptor, global::Contracts.V1.BuildParamsConfigReflection.Descriptor, global::Contracts.V1.ReleaseParamsConfigReflection.Descriptor, global::Contracts.V1.GitConfigReflection.Descriptor, global::Contracts.V1.BuildVersionConfigReflection.Descriptor, global::Contracts.V1.CredentialConfigReflection.Descriptor, global::Contracts.V1.TrustedImageConfigReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteManifestReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Contracts.V1.CiServerConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildVersionConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CredentialConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.TrustedImageConfigReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.BuilderConfig), global::Contracts.V1.BuilderConfig.Parser, new[]{ "Action", "Track", "RegistryMirror", "DockerDaemonMtu", "Manifest", "JobName", "ReleaseName", "Events", "CiServer", "BuildParams", "ReleaseParams", "Git", "BuildVersion", "Credentials", "TrustedImages" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.BuilderConfig), global::Estafette.CI.Contracts.V1.BuilderConfig.Parser, new[]{ "Action", "Track", "RegistryMirror", "DockerDaemonMtu", "Manifest", "JobName", "ReleaseName", "Events", "CiServer", "BuildParams", "ReleaseParams", "Git", "BuildVersion", "Credentials", "TrustedImages" }, null, null, null)
           }));
     }
     #endregion
@@ -66,7 +67,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.BuilderConfigReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.BuilderConfigReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -152,9 +153,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "manifest" field.</summary>
     public const int ManifestFieldNumber = 5;
-    private global::Manifest.V1.EstafetteManifest manifest_;
+    private global::Estafette.CI.Manifest.V1.EstafetteManifest manifest_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteManifest Manifest {
+    public global::Estafette.CI.Manifest.V1.EstafetteManifest Manifest {
       get { return manifest_; }
       set {
         manifest_ = value;
@@ -185,19 +186,19 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "events" field.</summary>
     public const int EventsFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteEvent> _repeated_events_codec
-        = pb::FieldCodec.ForMessage(66, global::Manifest.V1.EstafetteEvent.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteEvent> events_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteEvent>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteEvent> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(66, global::Estafette.CI.Manifest.V1.EstafetteEvent.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent> events_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteEvent> Events {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteEvent> Events {
       get { return events_; }
     }
 
     /// <summary>Field number for the "ci_server" field.</summary>
     public const int CiServerFieldNumber = 9;
-    private global::Contracts.V1.CIServerConfig ciServer_;
+    private global::Estafette.CI.Contracts.V1.CIServerConfig ciServer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.CIServerConfig CiServer {
+    public global::Estafette.CI.Contracts.V1.CIServerConfig CiServer {
       get { return ciServer_; }
       set {
         ciServer_ = value;
@@ -206,9 +207,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "build_params" field.</summary>
     public const int BuildParamsFieldNumber = 10;
-    private global::Contracts.V1.BuildParamsConfig buildParams_;
+    private global::Estafette.CI.Contracts.V1.BuildParamsConfig buildParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.BuildParamsConfig BuildParams {
+    public global::Estafette.CI.Contracts.V1.BuildParamsConfig BuildParams {
       get { return buildParams_; }
       set {
         buildParams_ = value;
@@ -217,9 +218,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "release_params" field.</summary>
     public const int ReleaseParamsFieldNumber = 11;
-    private global::Contracts.V1.ReleaseParamsConfig releaseParams_;
+    private global::Estafette.CI.Contracts.V1.ReleaseParamsConfig releaseParams_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.ReleaseParamsConfig ReleaseParams {
+    public global::Estafette.CI.Contracts.V1.ReleaseParamsConfig ReleaseParams {
       get { return releaseParams_; }
       set {
         releaseParams_ = value;
@@ -228,9 +229,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "git" field.</summary>
     public const int GitFieldNumber = 12;
-    private global::Contracts.V1.GitConfig git_;
+    private global::Estafette.CI.Contracts.V1.GitConfig git_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.GitConfig Git {
+    public global::Estafette.CI.Contracts.V1.GitConfig Git {
       get { return git_; }
       set {
         git_ = value;
@@ -239,9 +240,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "build_version" field.</summary>
     public const int BuildVersionFieldNumber = 13;
-    private global::Contracts.V1.BuildVersionConfig buildVersion_;
+    private global::Estafette.CI.Contracts.V1.BuildVersionConfig buildVersion_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.BuildVersionConfig BuildVersion {
+    public global::Estafette.CI.Contracts.V1.BuildVersionConfig BuildVersion {
       get { return buildVersion_; }
       set {
         buildVersion_ = value;
@@ -250,21 +251,21 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "credentials" field.</summary>
     public const int CredentialsFieldNumber = 14;
-    private static readonly pb::FieldCodec<global::Contracts.V1.CredentialConfig> _repeated_credentials_codec
-        = pb::FieldCodec.ForMessage(114, global::Contracts.V1.CredentialConfig.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.CredentialConfig> credentials_ = new pbc::RepeatedField<global::Contracts.V1.CredentialConfig>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.CredentialConfig> _repeated_credentials_codec
+        = pb::FieldCodec.ForMessage(114, global::Estafette.CI.Contracts.V1.CredentialConfig.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.CredentialConfig> credentials_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.CredentialConfig>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.CredentialConfig> Credentials {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.CredentialConfig> Credentials {
       get { return credentials_; }
     }
 
     /// <summary>Field number for the "trusted_images" field.</summary>
     public const int TrustedImagesFieldNumber = 15;
-    private static readonly pb::FieldCodec<global::Contracts.V1.TrustedImageConfig> _repeated_trustedImages_codec
-        = pb::FieldCodec.ForMessage(122, global::Contracts.V1.TrustedImageConfig.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.TrustedImageConfig> trustedImages_ = new pbc::RepeatedField<global::Contracts.V1.TrustedImageConfig>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.TrustedImageConfig> _repeated_trustedImages_codec
+        = pb::FieldCodec.ForMessage(122, global::Estafette.CI.Contracts.V1.TrustedImageConfig.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.TrustedImageConfig> trustedImages_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.TrustedImageConfig>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.TrustedImageConfig> TrustedImages {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.TrustedImageConfig> TrustedImages {
       get { return trustedImages_; }
     }
 
@@ -453,7 +454,7 @@ namespace Contracts.V1 {
       }
       if (other.manifest_ != null) {
         if (manifest_ == null) {
-          manifest_ = new global::Manifest.V1.EstafetteManifest();
+          manifest_ = new global::Estafette.CI.Manifest.V1.EstafetteManifest();
         }
         Manifest.MergeFrom(other.Manifest);
       }
@@ -466,31 +467,31 @@ namespace Contracts.V1 {
       events_.Add(other.events_);
       if (other.ciServer_ != null) {
         if (ciServer_ == null) {
-          ciServer_ = new global::Contracts.V1.CIServerConfig();
+          ciServer_ = new global::Estafette.CI.Contracts.V1.CIServerConfig();
         }
         CiServer.MergeFrom(other.CiServer);
       }
       if (other.buildParams_ != null) {
         if (buildParams_ == null) {
-          buildParams_ = new global::Contracts.V1.BuildParamsConfig();
+          buildParams_ = new global::Estafette.CI.Contracts.V1.BuildParamsConfig();
         }
         BuildParams.MergeFrom(other.BuildParams);
       }
       if (other.releaseParams_ != null) {
         if (releaseParams_ == null) {
-          releaseParams_ = new global::Contracts.V1.ReleaseParamsConfig();
+          releaseParams_ = new global::Estafette.CI.Contracts.V1.ReleaseParamsConfig();
         }
         ReleaseParams.MergeFrom(other.ReleaseParams);
       }
       if (other.git_ != null) {
         if (git_ == null) {
-          git_ = new global::Contracts.V1.GitConfig();
+          git_ = new global::Estafette.CI.Contracts.V1.GitConfig();
         }
         Git.MergeFrom(other.Git);
       }
       if (other.buildVersion_ != null) {
         if (buildVersion_ == null) {
-          buildVersion_ = new global::Contracts.V1.BuildVersionConfig();
+          buildVersion_ = new global::Estafette.CI.Contracts.V1.BuildVersionConfig();
         }
         BuildVersion.MergeFrom(other.BuildVersion);
       }
@@ -525,7 +526,7 @@ namespace Contracts.V1 {
           }
           case 42: {
             if (manifest_ == null) {
-              manifest_ = new global::Manifest.V1.EstafetteManifest();
+              manifest_ = new global::Estafette.CI.Manifest.V1.EstafetteManifest();
             }
             input.ReadMessage(manifest_);
             break;
@@ -544,35 +545,35 @@ namespace Contracts.V1 {
           }
           case 74: {
             if (ciServer_ == null) {
-              ciServer_ = new global::Contracts.V1.CIServerConfig();
+              ciServer_ = new global::Estafette.CI.Contracts.V1.CIServerConfig();
             }
             input.ReadMessage(ciServer_);
             break;
           }
           case 82: {
             if (buildParams_ == null) {
-              buildParams_ = new global::Contracts.V1.BuildParamsConfig();
+              buildParams_ = new global::Estafette.CI.Contracts.V1.BuildParamsConfig();
             }
             input.ReadMessage(buildParams_);
             break;
           }
           case 90: {
             if (releaseParams_ == null) {
-              releaseParams_ = new global::Contracts.V1.ReleaseParamsConfig();
+              releaseParams_ = new global::Estafette.CI.Contracts.V1.ReleaseParamsConfig();
             }
             input.ReadMessage(releaseParams_);
             break;
           }
           case 98: {
             if (git_ == null) {
-              git_ = new global::Contracts.V1.GitConfig();
+              git_ = new global::Estafette.CI.Contracts.V1.GitConfig();
             }
             input.ReadMessage(git_);
             break;
           }
           case 106: {
             if (buildVersion_ == null) {
-              buildVersion_ = new global::Contracts.V1.BuildVersionConfig();
+              buildVersion_ = new global::Estafette.CI.Contracts.V1.BuildVersionConfig();
             }
             input.ReadMessage(buildVersion_);
             break;

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_manual_event.proto</summary>
   public static partial class EstafetteManualEventReflection {
@@ -26,12 +26,13 @@ namespace Manifest.V1 {
           string.Concat(
             "CihtYW5pZmVzdC52MS9lc3RhZmV0dGVfbWFudWFsX2V2ZW50LnByb3RvEgtt",
             "YW5pZmVzdC52MSInChRFc3RhZmV0dGVNYW51YWxFdmVudBIPCgd1c2VyX2lk",
-            "GAEgASgJQkBaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1j",
-            "b250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "GAEgASgJQltaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1j",
+            "b250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRlLkNJLk1h",
+            "bmlmZXN0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteManualEvent), global::Manifest.V1.EstafetteManualEvent.Parser, new[]{ "UserId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteManualEvent), global::Estafette.CI.Manifest.V1.EstafetteManualEvent.Parser, new[]{ "UserId" }, null, null, null)
           }));
     }
     #endregion
@@ -46,7 +47,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteManualEventReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteManualEventReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

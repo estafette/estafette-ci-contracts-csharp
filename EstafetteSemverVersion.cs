@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_semver_version.proto</summary>
   public static partial class EstafetteSemverVersionReflection {
@@ -29,13 +29,13 @@ namespace Manifest.V1 {
             "cmF5LnByb3RvIpcBChZFc3RhZmV0dGVTZW12ZXJWZXJzaW9uEg0KBW1ham9y",
             "GAEgASgDEg0KBW1pbm9yGAIgASgDEg0KBXBhdGNoGAMgASgJEhYKDmxhYmVs",
             "X3RlbXBsYXRlGAQgASgJEjgKDnJlbGVhc2VfYnJhbmNoGAUgASgLMiAubWFu",
-            "aWZlc3QudjEuU3RyaW5nT3JTdHJpbmdBcnJheUJAWj5naXRodWIuY29tL2Vz",
+            "aWZlc3QudjEuU3RyaW5nT3JTdHJpbmdBcnJheUJbWj5naXRodWIuY29tL2Vz",
             "dGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3RzLWdvbGFuZy9tYW5pZmVz",
-            "dF92MWIGcHJvdG8z"));
+            "dF92MaoCGEVzdGFmZXR0ZS5DSS5NYW5pZmVzdC5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.StringOrStringArrayReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.StringOrStringArrayReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteSemverVersion), global::Manifest.V1.EstafetteSemverVersion.Parser, new[]{ "Major", "Minor", "Patch", "LabelTemplate", "ReleaseBranch" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteSemverVersion), global::Estafette.CI.Manifest.V1.EstafetteSemverVersion.Parser, new[]{ "Major", "Minor", "Patch", "LabelTemplate", "ReleaseBranch" }, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteSemverVersionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteSemverVersionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -126,9 +126,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "release_branch" field.</summary>
     public const int ReleaseBranchFieldNumber = 5;
-    private global::Manifest.V1.StringOrStringArray releaseBranch_;
+    private global::Estafette.CI.Manifest.V1.StringOrStringArray releaseBranch_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.StringOrStringArray ReleaseBranch {
+    public global::Estafette.CI.Manifest.V1.StringOrStringArray ReleaseBranch {
       get { return releaseBranch_; }
       set {
         releaseBranch_ = value;
@@ -245,7 +245,7 @@ namespace Manifest.V1 {
       }
       if (other.releaseBranch_ != null) {
         if (releaseBranch_ == null) {
-          releaseBranch_ = new global::Manifest.V1.StringOrStringArray();
+          releaseBranch_ = new global::Estafette.CI.Manifest.V1.StringOrStringArray();
         }
         ReleaseBranch.MergeFrom(other.ReleaseBranch);
       }
@@ -278,7 +278,7 @@ namespace Manifest.V1 {
           }
           case 42: {
             if (releaseBranch_ == null) {
-              releaseBranch_ = new global::Manifest.V1.StringOrStringArray();
+              releaseBranch_ = new global::Estafette.CI.Manifest.V1.StringOrStringArray();
             }
             input.ReadMessage(releaseBranch_);
             break;

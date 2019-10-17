@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/git_config.proto</summary>
   public static partial class GitConfigReflection {
@@ -27,13 +27,13 @@ namespace Contracts.V1 {
             "Ch1jb250cmFjdHMudjEvZ2l0X2NvbmZpZy5wcm90bxIMY29udHJhY3RzLnYx",
             "InMKCUdpdENvbmZpZxITCgtyZXBvX3NvdXJjZRgBIAEoCRISCgpyZXBvX293",
             "bmVyGAIgASgJEhEKCXJlcG9fbmFtZRgDIAEoCRITCgtyZXBvX2JyYW5jaBgE",
-            "IAEoCRIVCg1yZXBvX3JldmlzaW9uGAUgASgJQkFaP2dpdGh1Yi5jb20vZXN0",
+            "IAEoCRIVCg1yZXBvX3JldmlzaW9uGAUgASgJQl1aP2dpdGh1Yi5jb20vZXN0",
             "YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0",
-            "c192MWIGcHJvdG8z"));
+            "c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.GitConfig), global::Contracts.V1.GitConfig.Parser, new[]{ "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "RepoRevision" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.GitConfig), global::Estafette.CI.Contracts.V1.GitConfig.Parser, new[]{ "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "RepoRevision" }, null, null, null)
           }));
     }
     #endregion
@@ -48,7 +48,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.GitConfigReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.GitConfigReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

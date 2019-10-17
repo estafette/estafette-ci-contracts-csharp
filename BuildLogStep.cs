@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/build_log_step.proto</summary>
   public static partial class BuildLogStepReflection {
@@ -33,12 +33,13 @@ namespace Contracts.V1 {
             "CghkdXJhdGlvbhgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIt",
             "Cglsb2dfbGluZXMYBSADKAsyGi5jb250cmFjdHMudjEuQnVpbGRMb2dMaW5l",
             "EhEKCWV4aXRfY29kZRgGIAEoAxIOCgZzdGF0dXMYByABKAkSFQoNYXV0b19p",
-            "bmplY3RlZBgIIAEoCEJBWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0",
-            "dGUtY2ktY29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjFiBnByb3RvMw=="));
+            "bmplY3RlZBgIIAEoCEJdWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0",
+            "dGUtY2ktY29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0",
+            "dGUuQ0kuQ29udHJhY3RzLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, global::Contracts.V1.BuildLogLineReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogLineReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.BuildLogStep), global::Contracts.V1.BuildLogStep.Parser, new[]{ "Step", "Image", "RunIndex", "Duration", "LogLines", "ExitCode", "Status", "AutoInjected" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.BuildLogStep), global::Estafette.CI.Contracts.V1.BuildLogStep.Parser, new[]{ "Step", "Image", "RunIndex", "Duration", "LogLines", "ExitCode", "Status", "AutoInjected" }, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +54,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.BuildLogStepReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.BuildLogStepReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -99,9 +100,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "image" field.</summary>
     public const int ImageFieldNumber = 2;
-    private global::Contracts.V1.BuildLogStepDockerImage image_;
+    private global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage image_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.BuildLogStepDockerImage Image {
+    public global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage Image {
       get { return image_; }
       set {
         image_ = value;
@@ -132,11 +133,11 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "log_lines" field.</summary>
     public const int LogLinesFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::Contracts.V1.BuildLogLine> _repeated_logLines_codec
-        = pb::FieldCodec.ForMessage(42, global::Contracts.V1.BuildLogLine.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.BuildLogLine> logLines_ = new pbc::RepeatedField<global::Contracts.V1.BuildLogLine>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.BuildLogLine> _repeated_logLines_codec
+        = pb::FieldCodec.ForMessage(42, global::Estafette.CI.Contracts.V1.BuildLogLine.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.BuildLogLine> logLines_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.BuildLogLine>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.BuildLogLine> LogLines {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.BuildLogLine> LogLines {
       get { return logLines_; }
     }
 
@@ -296,7 +297,7 @@ namespace Contracts.V1 {
       }
       if (other.image_ != null) {
         if (image_ == null) {
-          image_ = new global::Contracts.V1.BuildLogStepDockerImage();
+          image_ = new global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage();
         }
         Image.MergeFrom(other.Image);
       }
@@ -336,7 +337,7 @@ namespace Contracts.V1 {
           }
           case 18: {
             if (image_ == null) {
-              image_ = new global::Contracts.V1.BuildLogStepDockerImage();
+              image_ = new global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage();
             }
             input.ReadMessage(image_);
             break;

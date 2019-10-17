@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/container_repository_credential_config.proto</summary>
   public static partial class ContainerRepositoryCredentialConfigReflection {
@@ -27,13 +27,14 @@ namespace Contracts.V1 {
             "Cjljb250cmFjdHMudjEvY29udGFpbmVyX3JlcG9zaXRvcnlfY3JlZGVudGlh",
             "bF9jb25maWcucHJvdG8SDGNvbnRyYWN0cy52MSJdCiNDb250YWluZXJSZXBv",
             "c2l0b3J5Q3JlZGVudGlhbENvbmZpZxISCgpyZXBvc2l0b3J5GAEgASgJEhAK",
-            "CHVzZXJuYW1lGAIgASgJEhAKCHBhc3N3b3JkGAMgASgJQkFaP2dpdGh1Yi5j",
+            "CHVzZXJuYW1lGAIgASgJEhAKCHBhc3N3b3JkGAMgASgJQl1aP2dpdGh1Yi5j",
             "b20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2Nv",
-            "bnRyYWN0c192MWIGcHJvdG8z"));
+            "bnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.ContainerRepositoryCredentialConfig), global::Contracts.V1.ContainerRepositoryCredentialConfig.Parser, new[]{ "Repository", "Username", "Password" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.ContainerRepositoryCredentialConfig), global::Estafette.CI.Contracts.V1.ContainerRepositoryCredentialConfig.Parser, new[]{ "Repository", "Username", "Password" }, null, null, null)
           }));
     }
     #endregion
@@ -48,7 +49,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.ContainerRepositoryCredentialConfigReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.ContainerRepositoryCredentialConfigReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

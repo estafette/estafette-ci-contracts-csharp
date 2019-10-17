@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/tail_log_line.proto</summary>
   public static partial class TailLogLineReflection {
@@ -32,13 +32,14 @@ namespace Contracts.V1 {
             "MS5CdWlsZExvZ0xpbmUSNAoFaW1hZ2UYAyABKAsyJS5jb250cmFjdHMudjEu",
             "QnVpbGRMb2dTdGVwRG9ja2VySW1hZ2USKwoIZHVyYXRpb24YBCABKAsyGS5n",
             "b29nbGUucHJvdG9idWYuRHVyYXRpb24SEQoJZXhpdF9jb2RlGAUgASgDEg4K",
-            "BnN0YXR1cxgGIAEoCRIVCg1hdXRvX2luamVjdGVkGAcgASgIQkFaP2dpdGh1",
+            "BnN0YXR1cxgGIAEoCRIVCg1hdXRvX2luamVjdGVkGAcgASgIQl1aP2dpdGh1",
             "Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5n",
-            "L2NvbnRyYWN0c192MWIGcHJvdG8z"));
+            "L2NvbnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Contracts.V1.BuildLogLineReflection.Descriptor, global::Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogLineReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.TailLogLine), global::Contracts.V1.TailLogLine.Parser, new[]{ "Step", "LogLine", "Image", "Duration", "ExitCode", "Status", "AutoInjected" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.TailLogLine), global::Estafette.CI.Contracts.V1.TailLogLine.Parser, new[]{ "Step", "LogLine", "Image", "Duration", "ExitCode", "Status", "AutoInjected" }, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +54,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.TailLogLineReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.TailLogLineReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -98,9 +99,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "log_line" field.</summary>
     public const int LogLineFieldNumber = 2;
-    private global::Contracts.V1.BuildLogLine logLine_;
+    private global::Estafette.CI.Contracts.V1.BuildLogLine logLine_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.BuildLogLine LogLine {
+    public global::Estafette.CI.Contracts.V1.BuildLogLine LogLine {
       get { return logLine_; }
       set {
         logLine_ = value;
@@ -109,9 +110,9 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "image" field.</summary>
     public const int ImageFieldNumber = 3;
-    private global::Contracts.V1.BuildLogStepDockerImage image_;
+    private global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage image_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Contracts.V1.BuildLogStepDockerImage Image {
+    public global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage Image {
       get { return image_; }
       set {
         image_ = value;
@@ -281,13 +282,13 @@ namespace Contracts.V1 {
       }
       if (other.logLine_ != null) {
         if (logLine_ == null) {
-          logLine_ = new global::Contracts.V1.BuildLogLine();
+          logLine_ = new global::Estafette.CI.Contracts.V1.BuildLogLine();
         }
         LogLine.MergeFrom(other.LogLine);
       }
       if (other.image_ != null) {
         if (image_ == null) {
-          image_ = new global::Contracts.V1.BuildLogStepDockerImage();
+          image_ = new global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage();
         }
         Image.MergeFrom(other.Image);
       }
@@ -323,14 +324,14 @@ namespace Contracts.V1 {
           }
           case 18: {
             if (logLine_ == null) {
-              logLine_ = new global::Contracts.V1.BuildLogLine();
+              logLine_ = new global::Estafette.CI.Contracts.V1.BuildLogLine();
             }
             input.ReadMessage(logLine_);
             break;
           }
           case 26: {
             if (image_ == null) {
-              image_ = new global::Contracts.V1.BuildLogStepDockerImage();
+              image_ = new global::Estafette.CI.Contracts.V1.BuildLogStepDockerImage();
             }
             input.ReadMessage(image_);
             break;

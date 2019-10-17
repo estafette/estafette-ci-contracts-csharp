@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_event.proto</summary>
   public static partial class EstafetteEventReflection {
@@ -39,13 +39,14 @@ namespace Manifest.V1 {
             "LnYxLkVzdGFmZXR0ZURvY2tlckV2ZW50Ei0KBGNyb24YBSABKAsyHy5tYW5p",
             "ZmVzdC52MS5Fc3RhZmV0dGVDcm9uRXZlbnQSMgoHcHViX3N1YhgGIAEoCzIh",
             "Lm1hbmlmZXN0LnYxLkVzdGFmZXR0ZVB1YlN1YkV2ZW50EjEKBm1hbnVhbBgH",
-            "IAEoCzIhLm1hbmlmZXN0LnYxLkVzdGFmZXR0ZU1hbnVhbEV2ZW50QkBaPmdp",
+            "IAEoCzIhLm1hbmlmZXN0LnYxLkVzdGFmZXR0ZU1hbnVhbEV2ZW50QltaPmdp",
             "dGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29s",
-            "YW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "YW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRlLkNJLk1hbmlmZXN0LlYxYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafettePipelineEventReflection.Descriptor, global::Manifest.V1.EstafetteReleaseEventReflection.Descriptor, global::Manifest.V1.EstafetteGitEventReflection.Descriptor, global::Manifest.V1.EstafetteDockerEventReflection.Descriptor, global::Manifest.V1.EstafetteCronEventReflection.Descriptor, global::Manifest.V1.EstafettePubSubEventReflection.Descriptor, global::Manifest.V1.EstafetteManualEventReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafettePipelineEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteReleaseEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteGitEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteDockerEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteCronEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafettePubSubEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteManualEventReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteEvent), global::Manifest.V1.EstafetteEvent.Parser, new[]{ "Pipeline", "Release", "Git", "Docker", "Cron", "PubSub", "Manual" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteEvent), global::Estafette.CI.Manifest.V1.EstafetteEvent.Parser, new[]{ "Pipeline", "Release", "Git", "Docker", "Cron", "PubSub", "Manual" }, null, null, null)
           }));
     }
     #endregion
@@ -60,7 +61,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteEventReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -94,9 +95,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "pipeline" field.</summary>
     public const int PipelineFieldNumber = 1;
-    private global::Manifest.V1.EstafettePipelineEvent pipeline_;
+    private global::Estafette.CI.Manifest.V1.EstafettePipelineEvent pipeline_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafettePipelineEvent Pipeline {
+    public global::Estafette.CI.Manifest.V1.EstafettePipelineEvent Pipeline {
       get { return pipeline_; }
       set {
         pipeline_ = value;
@@ -105,9 +106,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "release" field.</summary>
     public const int ReleaseFieldNumber = 2;
-    private global::Manifest.V1.EstafetteReleaseEvent release_;
+    private global::Estafette.CI.Manifest.V1.EstafetteReleaseEvent release_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteReleaseEvent Release {
+    public global::Estafette.CI.Manifest.V1.EstafetteReleaseEvent Release {
       get { return release_; }
       set {
         release_ = value;
@@ -116,9 +117,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "git" field.</summary>
     public const int GitFieldNumber = 3;
-    private global::Manifest.V1.EstafetteGitEvent git_;
+    private global::Estafette.CI.Manifest.V1.EstafetteGitEvent git_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteGitEvent Git {
+    public global::Estafette.CI.Manifest.V1.EstafetteGitEvent Git {
       get { return git_; }
       set {
         git_ = value;
@@ -127,9 +128,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "docker" field.</summary>
     public const int DockerFieldNumber = 4;
-    private global::Manifest.V1.EstafetteDockerEvent docker_;
+    private global::Estafette.CI.Manifest.V1.EstafetteDockerEvent docker_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteDockerEvent Docker {
+    public global::Estafette.CI.Manifest.V1.EstafetteDockerEvent Docker {
       get { return docker_; }
       set {
         docker_ = value;
@@ -138,9 +139,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "cron" field.</summary>
     public const int CronFieldNumber = 5;
-    private global::Manifest.V1.EstafetteCronEvent cron_;
+    private global::Estafette.CI.Manifest.V1.EstafetteCronEvent cron_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteCronEvent Cron {
+    public global::Estafette.CI.Manifest.V1.EstafetteCronEvent Cron {
       get { return cron_; }
       set {
         cron_ = value;
@@ -149,9 +150,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "pub_sub" field.</summary>
     public const int PubSubFieldNumber = 6;
-    private global::Manifest.V1.EstafettePubSubEvent pubSub_;
+    private global::Estafette.CI.Manifest.V1.EstafettePubSubEvent pubSub_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafettePubSubEvent PubSub {
+    public global::Estafette.CI.Manifest.V1.EstafettePubSubEvent PubSub {
       get { return pubSub_; }
       set {
         pubSub_ = value;
@@ -160,9 +161,9 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "manual" field.</summary>
     public const int ManualFieldNumber = 7;
-    private global::Manifest.V1.EstafetteManualEvent manual_;
+    private global::Estafette.CI.Manifest.V1.EstafetteManualEvent manual_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Manifest.V1.EstafetteManualEvent Manual {
+    public global::Estafette.CI.Manifest.V1.EstafetteManualEvent Manual {
       get { return manual_; }
       set {
         manual_ = value;
@@ -285,43 +286,43 @@ namespace Manifest.V1 {
       }
       if (other.pipeline_ != null) {
         if (pipeline_ == null) {
-          pipeline_ = new global::Manifest.V1.EstafettePipelineEvent();
+          pipeline_ = new global::Estafette.CI.Manifest.V1.EstafettePipelineEvent();
         }
         Pipeline.MergeFrom(other.Pipeline);
       }
       if (other.release_ != null) {
         if (release_ == null) {
-          release_ = new global::Manifest.V1.EstafetteReleaseEvent();
+          release_ = new global::Estafette.CI.Manifest.V1.EstafetteReleaseEvent();
         }
         Release.MergeFrom(other.Release);
       }
       if (other.git_ != null) {
         if (git_ == null) {
-          git_ = new global::Manifest.V1.EstafetteGitEvent();
+          git_ = new global::Estafette.CI.Manifest.V1.EstafetteGitEvent();
         }
         Git.MergeFrom(other.Git);
       }
       if (other.docker_ != null) {
         if (docker_ == null) {
-          docker_ = new global::Manifest.V1.EstafetteDockerEvent();
+          docker_ = new global::Estafette.CI.Manifest.V1.EstafetteDockerEvent();
         }
         Docker.MergeFrom(other.Docker);
       }
       if (other.cron_ != null) {
         if (cron_ == null) {
-          cron_ = new global::Manifest.V1.EstafetteCronEvent();
+          cron_ = new global::Estafette.CI.Manifest.V1.EstafetteCronEvent();
         }
         Cron.MergeFrom(other.Cron);
       }
       if (other.pubSub_ != null) {
         if (pubSub_ == null) {
-          pubSub_ = new global::Manifest.V1.EstafettePubSubEvent();
+          pubSub_ = new global::Estafette.CI.Manifest.V1.EstafettePubSubEvent();
         }
         PubSub.MergeFrom(other.PubSub);
       }
       if (other.manual_ != null) {
         if (manual_ == null) {
-          manual_ = new global::Manifest.V1.EstafetteManualEvent();
+          manual_ = new global::Estafette.CI.Manifest.V1.EstafetteManualEvent();
         }
         Manual.MergeFrom(other.Manual);
       }
@@ -338,49 +339,49 @@ namespace Manifest.V1 {
             break;
           case 10: {
             if (pipeline_ == null) {
-              pipeline_ = new global::Manifest.V1.EstafettePipelineEvent();
+              pipeline_ = new global::Estafette.CI.Manifest.V1.EstafettePipelineEvent();
             }
             input.ReadMessage(pipeline_);
             break;
           }
           case 18: {
             if (release_ == null) {
-              release_ = new global::Manifest.V1.EstafetteReleaseEvent();
+              release_ = new global::Estafette.CI.Manifest.V1.EstafetteReleaseEvent();
             }
             input.ReadMessage(release_);
             break;
           }
           case 26: {
             if (git_ == null) {
-              git_ = new global::Manifest.V1.EstafetteGitEvent();
+              git_ = new global::Estafette.CI.Manifest.V1.EstafetteGitEvent();
             }
             input.ReadMessage(git_);
             break;
           }
           case 34: {
             if (docker_ == null) {
-              docker_ = new global::Manifest.V1.EstafetteDockerEvent();
+              docker_ = new global::Estafette.CI.Manifest.V1.EstafetteDockerEvent();
             }
             input.ReadMessage(docker_);
             break;
           }
           case 42: {
             if (cron_ == null) {
-              cron_ = new global::Manifest.V1.EstafetteCronEvent();
+              cron_ = new global::Estafette.CI.Manifest.V1.EstafetteCronEvent();
             }
             input.ReadMessage(cron_);
             break;
           }
           case 50: {
             if (pubSub_ == null) {
-              pubSub_ = new global::Manifest.V1.EstafettePubSubEvent();
+              pubSub_ = new global::Estafette.CI.Manifest.V1.EstafettePubSubEvent();
             }
             input.ReadMessage(pubSub_);
             break;
           }
           case 58: {
             if (manual_ == null) {
-              manual_ = new global::Manifest.V1.EstafetteManualEvent();
+              manual_ = new global::Estafette.CI.Manifest.V1.EstafetteManualEvent();
             }
             input.ReadMessage(manual_);
             break;

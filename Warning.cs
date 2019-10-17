@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/warning.proto</summary>
   public static partial class WarningReflection {
@@ -25,13 +25,14 @@ namespace Contracts.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Chpjb250cmFjdHMudjEvd2FybmluZy5wcm90bxIMY29udHJhY3RzLnYxIioK",
-            "B1dhcm5pbmcSDgoGc3RhdHVzGAEgASgJEg8KB21lc3NhZ2UYAiABKAlCQVo/",
+            "B1dhcm5pbmcSDgoGc3RhdHVzGAEgASgJEg8KB21lc3NhZ2UYAiABKAlCXVo/",
             "Z2l0aHViLmNvbS9lc3RhZmV0dGUvZXN0YWZldHRlLWNpLWNvbnRyYWN0cy1n",
-            "b2xhbmcvY29udHJhY3RzX3YxYgZwcm90bzM="));
+            "b2xhbmcvY29udHJhY3RzX3YxqgIZRXN0YWZldHRlLkNJLkNvbnRyYWN0cy5W",
+            "MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.Warning), global::Contracts.V1.Warning.Parser, new[]{ "Status", "Message" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Warning), global::Estafette.CI.Contracts.V1.Warning.Parser, new[]{ "Status", "Message" }, null, null, null)
           }));
     }
     #endregion
@@ -46,7 +47,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.WarningReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.WarningReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/release_log.proto</summary>
   public static partial class ReleaseLogReflection {
@@ -30,13 +30,14 @@ namespace Contracts.V1 {
             "GAEgASgJEhMKC3JlcG9fc291cmNlGAIgASgJEhIKCnJlcG9fb3duZXIYAyAB",
             "KAkSEQoJcmVwb19uYW1lGAQgASgJEhIKCnJlbGVhc2VfaWQYBSABKAkSKQoF",
             "c3RlcHMYBiADKAsyGi5jb250cmFjdHMudjEuQnVpbGRMb2dTdGVwEi8KC2lu",
-            "c2VydGVkX2F0GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEJB",
+            "c2VydGVkX2F0GAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEJd",
             "Wj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3Rz",
-            "LWdvbGFuZy9jb250cmFjdHNfdjFiBnByb3RvMw=="));
+            "LWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3Rz",
+            "LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Contracts.V1.BuildLogStepReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildLogStepReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.ReleaseLog), global::Contracts.V1.ReleaseLog.Parser, new[]{ "Id", "RepoSource", "RepoOwner", "RepoName", "ReleaseId", "Steps", "InsertedAt" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.ReleaseLog), global::Estafette.CI.Contracts.V1.ReleaseLog.Parser, new[]{ "Id", "RepoSource", "RepoOwner", "RepoName", "ReleaseId", "Steps", "InsertedAt" }, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +52,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.ReleaseLogReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.ReleaseLogReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -140,11 +141,11 @@ namespace Contracts.V1 {
 
     /// <summary>Field number for the "steps" field.</summary>
     public const int StepsFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::Contracts.V1.BuildLogStep> _repeated_steps_codec
-        = pb::FieldCodec.ForMessage(50, global::Contracts.V1.BuildLogStep.Parser);
-    private readonly pbc::RepeatedField<global::Contracts.V1.BuildLogStep> steps_ = new pbc::RepeatedField<global::Contracts.V1.BuildLogStep>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Contracts.V1.BuildLogStep> _repeated_steps_codec
+        = pb::FieldCodec.ForMessage(50, global::Estafette.CI.Contracts.V1.BuildLogStep.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Contracts.V1.BuildLogStep> steps_ = new pbc::RepeatedField<global::Estafette.CI.Contracts.V1.BuildLogStep>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Contracts.V1.BuildLogStep> Steps {
+    public pbc::RepeatedField<global::Estafette.CI.Contracts.V1.BuildLogStep> Steps {
       get { return steps_; }
     }
 

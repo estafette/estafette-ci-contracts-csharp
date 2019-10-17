@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Contracts.V1 {
+namespace Estafette.CI.Contracts.V1 {
 
   /// <summary>Holder for reflection information generated from contracts.v1/release_params_config.proto</summary>
   public static partial class ReleaseParamsConfigReflection {
@@ -27,13 +27,13 @@ namespace Contracts.V1 {
             "Cihjb250cmFjdHMudjEvcmVsZWFzZV9wYXJhbXNfY29uZmlnLnByb3RvEgxj",
             "b250cmFjdHMudjEibQoTUmVsZWFzZVBhcmFtc0NvbmZpZxIUCgxyZWxlYXNl",
             "X25hbWUYASABKAkSEgoKcmVsZWFzZV9pZBgCIAEoAxIWCg5yZWxlYXNlX2Fj",
-            "dGlvbhgDIAEoCRIUCgx0cmlnZ2VyZWRfYnkYBCABKAlCQVo/Z2l0aHViLmNv",
+            "dGlvbhgDIAEoCRIUCgx0cmlnZ2VyZWRfYnkYBCABKAlCXVo/Z2l0aHViLmNv",
             "bS9lc3RhZmV0dGUvZXN0YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvY29u",
-            "dHJhY3RzX3YxYgZwcm90bzM="));
+            "dHJhY3RzX3YxqgIZRXN0YWZldHRlLkNJLkNvbnRyYWN0cy5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Contracts.V1.ReleaseParamsConfig), global::Contracts.V1.ReleaseParamsConfig.Parser, new[]{ "ReleaseName", "ReleaseId", "ReleaseAction", "TriggeredBy" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.ReleaseParamsConfig), global::Estafette.CI.Contracts.V1.ReleaseParamsConfig.Parser, new[]{ "ReleaseName", "ReleaseId", "ReleaseAction", "TriggeredBy" }, null, null, null)
           }));
     }
     #endregion
@@ -48,7 +48,7 @@ namespace Contracts.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Contracts.V1.ReleaseParamsConfigReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Contracts.V1.ReleaseParamsConfigReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

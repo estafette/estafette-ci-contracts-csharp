@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_trigger_release_action.proto</summary>
   public static partial class EstafetteTriggerReleaseActionReflection {
@@ -27,12 +27,13 @@ namespace Manifest.V1 {
             "CjJtYW5pZmVzdC52MS9lc3RhZmV0dGVfdHJpZ2dlcl9yZWxlYXNlX2FjdGlv",
             "bi5wcm90bxILbWFuaWZlc3QudjEiUAodRXN0YWZldHRlVHJpZ2dlclJlbGVh",
             "c2VBY3Rpb24SDgoGdGFyZ2V0GAEgASgJEg4KBmFjdGlvbhgCIAEoCRIPCgd2",
-            "ZXJzaW9uGAMgASgJQkBaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0",
-            "ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "ZXJzaW9uGAMgASgJQltaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0",
+            "ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRl",
+            "LkNJLk1hbmlmZXN0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteTriggerReleaseAction), global::Manifest.V1.EstafetteTriggerReleaseAction.Parser, new[]{ "Target", "Action", "Version" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteTriggerReleaseAction), global::Estafette.CI.Manifest.V1.EstafetteTriggerReleaseAction.Parser, new[]{ "Target", "Action", "Version" }, null, null, null)
           }));
     }
     #endregion
@@ -47,7 +48,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteTriggerReleaseActionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteTriggerReleaseActionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

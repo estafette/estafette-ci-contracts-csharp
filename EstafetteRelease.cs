@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_release.proto</summary>
   public static partial class EstafetteReleaseReflection {
@@ -32,12 +32,13 @@ namespace Manifest.V1 {
             "KAgSNAoHYWN0aW9ucxgDIAMoCzIjLm1hbmlmZXN0LnYxLkVzdGFmZXR0ZVJl",
             "bGVhc2VBY3Rpb24SLwoIdHJpZ2dlcnMYBCADKAsyHS5tYW5pZmVzdC52MS5F",
             "c3RhZmV0dGVUcmlnZ2VyEisKBnN0YWdlcxgFIAMoCzIbLm1hbmlmZXN0LnYx",
-            "LkVzdGFmZXR0ZVN0YWdlQkBaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFm",
-            "ZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "LkVzdGFmZXR0ZVN0YWdlQltaPmdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFm",
+            "ZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxqgIYRXN0YWZl",
+            "dHRlLkNJLk1hbmlmZXN0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Manifest.V1.EstafetteReleaseActionReflection.Descriptor, global::Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Manifest.V1.EstafetteStageReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteReleaseActionReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteStageReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteRelease), global::Manifest.V1.EstafetteRelease.Parser, new[]{ "Name", "CloneRepository", "Actions", "Triggers", "Stages" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteRelease), global::Estafette.CI.Manifest.V1.EstafetteRelease.Parser, new[]{ "Name", "CloneRepository", "Actions", "Triggers", "Stages" }, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +53,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteReleaseReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteReleaseReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -106,31 +107,31 @@ namespace Manifest.V1 {
 
     /// <summary>Field number for the "actions" field.</summary>
     public const int ActionsFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteReleaseAction> _repeated_actions_codec
-        = pb::FieldCodec.ForMessage(26, global::Manifest.V1.EstafetteReleaseAction.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteReleaseAction> actions_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteReleaseAction>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction> _repeated_actions_codec
+        = pb::FieldCodec.ForMessage(26, global::Estafette.CI.Manifest.V1.EstafetteReleaseAction.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction> actions_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteReleaseAction> Actions {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteReleaseAction> Actions {
       get { return actions_; }
     }
 
     /// <summary>Field number for the "triggers" field.</summary>
     public const int TriggersFieldNumber = 4;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteTrigger> _repeated_triggers_codec
-        = pb::FieldCodec.ForMessage(34, global::Manifest.V1.EstafetteTrigger.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger> triggers_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteTrigger> _repeated_triggers_codec
+        = pb::FieldCodec.ForMessage(34, global::Estafette.CI.Manifest.V1.EstafetteTrigger.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger> triggers_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteTrigger> Triggers {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteTrigger> Triggers {
       get { return triggers_; }
     }
 
     /// <summary>Field number for the "stages" field.</summary>
     public const int StagesFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::Manifest.V1.EstafetteStage> _repeated_stages_codec
-        = pb::FieldCodec.ForMessage(42, global::Manifest.V1.EstafetteStage.Parser);
-    private readonly pbc::RepeatedField<global::Manifest.V1.EstafetteStage> stages_ = new pbc::RepeatedField<global::Manifest.V1.EstafetteStage>();
+    private static readonly pb::FieldCodec<global::Estafette.CI.Manifest.V1.EstafetteStage> _repeated_stages_codec
+        = pb::FieldCodec.ForMessage(42, global::Estafette.CI.Manifest.V1.EstafetteStage.Parser);
+    private readonly pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteStage> stages_ = new pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteStage>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Manifest.V1.EstafetteStage> Stages {
+    public pbc::RepeatedField<global::Estafette.CI.Manifest.V1.EstafetteStage> Stages {
       get { return stages_; }
     }
 

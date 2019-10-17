@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_pipeline_event.proto</summary>
   public static partial class EstafettePipelineEventReflection {
@@ -28,13 +28,14 @@ namespace Manifest.V1 {
             "C21hbmlmZXN0LnYxIp8BChZFc3RhZmV0dGVQaXBlbGluZUV2ZW50EhUKDWJ1",
             "aWxkX3ZlcnNpb24YASABKAkSEwoLcmVwb19zb3VyY2UYAiABKAkSEgoKcmVw",
             "b19vd25lchgDIAEoCRIRCglyZXBvX25hbWUYBCABKAkSEwoLcmVwb19icmFu",
-            "Y2gYBSABKAkSDgoGc3RhdHVzGAYgASgJEg0KBWV2ZW50GAcgASgJQkBaPmdp",
+            "Y2gYBSABKAkSDgoGc3RhdHVzGAYgASgJEg0KBWV2ZW50GAcgASgJQltaPmdp",
             "dGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29s",
-            "YW5nL21hbmlmZXN0X3YxYgZwcm90bzM="));
+            "YW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRlLkNJLk1hbmlmZXN0LlYxYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafettePipelineEvent), global::Manifest.V1.EstafettePipelineEvent.Parser, new[]{ "BuildVersion", "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "Status", "Event" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafettePipelineEvent), global::Estafette.CI.Manifest.V1.EstafettePipelineEvent.Parser, new[]{ "BuildVersion", "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "Status", "Event" }, null, null, null)
           }));
     }
     #endregion
@@ -49,7 +50,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafettePipelineEventReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafettePipelineEventReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Manifest.V1 {
+namespace Estafette.CI.Manifest.V1 {
 
   /// <summary>Holder for reflection information generated from manifest.v1/estafette_stage.proto</summary>
   public static partial class EstafetteStageReflection {
@@ -35,13 +35,13 @@ namespace Manifest.V1 {
             "YWdlLkN1c3RvbVByb3BlcnRpZXNFbnRyeRouCgxFbnZWYXJzRW50cnkSCwoD",
             "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ARpNChVDdXN0b21Qcm9wZXJ0",
             "aWVzRW50cnkSCwoDa2V5GAEgASgJEiMKBXZhbHVlGAIgASgLMhQuZ29vZ2xl",
-            "LnByb3RvYnVmLkFueToCOAFCQFo+Z2l0aHViLmNvbS9lc3RhZmV0dGUvZXN0",
-            "YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvbWFuaWZlc3RfdjFiBnByb3Rv",
-            "Mw=="));
+            "LnByb3RvYnVmLkFueToCOAFCW1o+Z2l0aHViLmNvbS9lc3RhZmV0dGUvZXN0",
+            "YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvbWFuaWZlc3RfdjGqAhhFc3Rh",
+            "ZmV0dGUuQ0kuTWFuaWZlc3QuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Manifest.V1.EstafetteStage), global::Manifest.V1.EstafetteStage.Parser, new[]{ "Name", "ContainerImage", "Shell", "WorkingDirectory", "Commands", "When", "EnvVars", "AutoInjected", "Retries", "CustomProperties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteStage), global::Estafette.CI.Manifest.V1.EstafetteStage.Parser, new[]{ "Name", "ContainerImage", "Shell", "WorkingDirectory", "Commands", "When", "EnvVars", "AutoInjected", "Retries", "CustomProperties" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
           }));
     }
     #endregion
@@ -56,7 +56,7 @@ namespace Manifest.V1 {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Manifest.V1.EstafetteStageReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Estafette.CI.Manifest.V1.EstafetteStageReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
