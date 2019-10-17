@@ -25,14 +25,14 @@ namespace Estafette.CI.Contracts.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiFjb250cmFjdHMudjEvYnVpbGRlcl9jb25maWcucHJvdG8SDGNvbnRyYWN0",
-            "cy52MRokbWFuaWZlc3QudjEvZXN0YWZldHRlX21hbmlmZXN0LnByb3RvGiFt",
-            "YW5pZmVzdC52MS9lc3RhZmV0dGVfZXZlbnQucHJvdG8aI2NvbnRyYWN0cy52",
-            "MS9jaV9zZXJ2ZXJfY29uZmlnLnByb3RvGiZjb250cmFjdHMudjEvYnVpbGRf",
-            "cGFyYW1zX2NvbmZpZy5wcm90bxooY29udHJhY3RzLnYxL3JlbGVhc2VfcGFy",
-            "YW1zX2NvbmZpZy5wcm90bxodY29udHJhY3RzLnYxL2dpdF9jb25maWcucHJv",
-            "dG8aJ2NvbnRyYWN0cy52MS9idWlsZF92ZXJzaW9uX2NvbmZpZy5wcm90bxok",
-            "Y29udHJhY3RzLnYxL2NyZWRlbnRpYWxfY29uZmlnLnByb3RvGidjb250cmFj",
-            "dHMudjEvdHJ1c3RlZF9pbWFnZV9jb25maWcucHJvdG8i2gQKDUJ1aWxkZXJD",
+            "cy52MRomY29udHJhY3RzLnYxL2J1aWxkX3BhcmFtc19jb25maWcucHJvdG8a",
+            "J2NvbnRyYWN0cy52MS9idWlsZF92ZXJzaW9uX2NvbmZpZy5wcm90bxojY29u",
+            "dHJhY3RzLnYxL2NpX3NlcnZlcl9jb25maWcucHJvdG8aJGNvbnRyYWN0cy52",
+            "MS9jcmVkZW50aWFsX2NvbmZpZy5wcm90bxodY29udHJhY3RzLnYxL2dpdF9j",
+            "b25maWcucHJvdG8aKGNvbnRyYWN0cy52MS9yZWxlYXNlX3BhcmFtc19jb25m",
+            "aWcucHJvdG8aJ2NvbnRyYWN0cy52MS90cnVzdGVkX2ltYWdlX2NvbmZpZy5w",
+            "cm90bxohbWFuaWZlc3QudjEvZXN0YWZldHRlX2V2ZW50LnByb3RvGiRtYW5p",
+            "ZmVzdC52MS9lc3RhZmV0dGVfbWFuaWZlc3QucHJvdG8i2gQKDUJ1aWxkZXJD",
             "b25maWcSDgoGYWN0aW9uGAEgASgJEg0KBXRyYWNrGAIgASgJEhcKD3JlZ2lz",
             "dHJ5X21pcnJvchgDIAEoCRIZChFkb2NrZXJfZGFlbW9uX210dRgEIAEoCRIw",
             "CghtYW5pZmVzdBgFIAEoCzIeLm1hbmlmZXN0LnYxLkVzdGFmZXR0ZU1hbmlm",
@@ -50,7 +50,7 @@ namespace Estafette.CI.Contracts.V1 {
             "Y29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0ku",
             "Q29udHJhY3RzLlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteManifestReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Contracts.V1.CiServerConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildVersionConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CredentialConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.TrustedImageConfigReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildVersionConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CiServerConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CredentialConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.TrustedImageConfigReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteManifestReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.BuilderConfig), global::Estafette.CI.Contracts.V1.BuilderConfig.Parser, new[]{ "Action", "Track", "RegistryMirror", "DockerDaemonMtu", "Manifest", "JobName", "ReleaseName", "Events", "CiServer", "BuildParams", "ReleaseParams", "Git", "BuildVersion", "Credentials", "TrustedImages" }, null, null, null)
           }));

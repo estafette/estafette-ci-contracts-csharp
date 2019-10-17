@@ -24,12 +24,12 @@ namespace Estafette.CI.Contracts.V1 {
     static PipelineReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Chtjb250cmFjdHMudjEvcGlwZWxpbmUucHJvdG8SDGNvbnRyYWN0cy52MRoY",
-            "Y29udHJhY3RzLnYxL2xhYmVsLnByb3RvGiFjb250cmFjdHMudjEvcmVsZWFz",
-            "ZV90YXJnZXQucHJvdG8aHWNvbnRyYWN0cy52MS9naXRfY29tbWl0LnByb3Rv",
-            "GiNtYW5pZmVzdC52MS9lc3RhZmV0dGVfdHJpZ2dlci5wcm90bxohbWFuaWZl",
-            "c3QudjEvZXN0YWZldHRlX2V2ZW50LnByb3RvGh9nb29nbGUvcHJvdG9idWYv",
-            "dGltZXN0YW1wLnByb3RvGh5nb29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJv",
+            "Chtjb250cmFjdHMudjEvcGlwZWxpbmUucHJvdG8SDGNvbnRyYWN0cy52MRod",
+            "Y29udHJhY3RzLnYxL2dpdF9jb21taXQucHJvdG8aGGNvbnRyYWN0cy52MS9s",
+            "YWJlbC5wcm90bxohY29udHJhY3RzLnYxL3JlbGVhc2VfdGFyZ2V0LnByb3Rv",
+            "Gh5nb29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJvdG8aH2dvb2dsZS9wcm90",
+            "b2J1Zi90aW1lc3RhbXAucHJvdG8aIW1hbmlmZXN0LnYxL2VzdGFmZXR0ZV9l",
+            "dmVudC5wcm90bxojbWFuaWZlc3QudjEvZXN0YWZldHRlX3RyaWdnZXIucHJv",
             "dG8igwUKCFBpcGVsaW5lEgoKAmlkGAEgASgJEhMKC3JlcG9fc291cmNlGAIg",
             "ASgJEhIKCnJlcG9fb3duZXIYAyABKAkSEQoJcmVwb19uYW1lGAQgASgJEhMK",
             "C3JlcG9fYnJhbmNoGAUgASgJEhUKDXJlcG9fcmV2aXNpb24YBiABKAkSFQoN",
@@ -48,7 +48,7 @@ namespace Estafette.CI.Contracts.V1 {
             "dGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVz",
             "dGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.LabelReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseTargetReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitCommitReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.GitCommitReflection.Descriptor, global::Estafette.CI.Contracts.V1.LabelReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseTargetReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Pipeline), global::Estafette.CI.Contracts.V1.Pipeline.Parser, new[]{ "Id", "RepoSource", "RepoOwner", "RepoName", "RepoBranch", "RepoRevision", "BuildVersion", "BuildStatus", "Labels", "ReleaseTargets", "Manifest", "ManifestWithDefaults", "Commits", "Triggers", "Events", "InsertedAt", "UpdatedAt", "Duration", "LastUpdatedAt" }, null, null, null)
           }));

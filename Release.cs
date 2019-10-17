@@ -24,10 +24,10 @@ namespace Estafette.CI.Contracts.V1 {
     static ReleaseReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Chpjb250cmFjdHMudjEvcmVsZWFzZS5wcm90bxIMY29udHJhY3RzLnYxGiFt",
-            "YW5pZmVzdC52MS9lc3RhZmV0dGVfZXZlbnQucHJvdG8aH2dvb2dsZS9wcm90",
-            "b2J1Zi90aW1lc3RhbXAucHJvdG8aHmdvb2dsZS9wcm90b2J1Zi9kdXJhdGlv",
-            "bi5wcm90byLIAgoHUmVsZWFzZRIMCgRuYW1lGAEgASgJEg4KBmFjdGlvbhgC",
+            "Chpjb250cmFjdHMudjEvcmVsZWFzZS5wcm90bxIMY29udHJhY3RzLnYxGh5n",
+            "b29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJvdG8aH2dvb2dsZS9wcm90b2J1",
+            "Zi90aW1lc3RhbXAucHJvdG8aIW1hbmlmZXN0LnYxL2VzdGFmZXR0ZV9ldmVu",
+            "dC5wcm90byLIAgoHUmVsZWFzZRIMCgRuYW1lGAEgASgJEg4KBmFjdGlvbhgC",
             "IAEoCRIKCgJpZBgDIAEoCRITCgtyZXBvX3NvdXJjZRgEIAEoCRISCgpyZXBv",
             "X293bmVyGAUgASgJEhcKD3JlbGVhc2VfdmVyc2lvbhgGIAEoCRIWCg5yZWxl",
             "YXNlX3N0YXR1cxgHIAEoCRIrCgZldmVudHMYCCADKAsyGy5tYW5pZmVzdC52",
@@ -38,7 +38,7 @@ namespace Estafette.CI.Contracts.V1 {
             "dGUvZXN0YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvY29udHJhY3RzX3Yx",
             "qgIZRXN0YWZldHRlLkNJLkNvbnRyYWN0cy5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.Release), global::Estafette.CI.Contracts.V1.Release.Parser, new[]{ "Name", "Action", "Id", "RepoSource", "RepoOwner", "ReleaseVersion", "ReleaseStatus", "Events", "InsertedAt", "UpdatedAt", "Duration" }, null, null, null)
           }));

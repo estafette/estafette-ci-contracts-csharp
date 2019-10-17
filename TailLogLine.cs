@@ -25,9 +25,9 @@ namespace Estafette.CI.Contracts.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiBjb250cmFjdHMudjEvdGFpbF9sb2dfbGluZS5wcm90bxIMY29udHJhY3Rz",
-            "LnYxGh5nb29nbGUvcHJvdG9idWYvZHVyYXRpb24ucHJvdG8aIWNvbnRyYWN0",
-            "cy52MS9idWlsZF9sb2dfbGluZS5wcm90bxouY29udHJhY3RzLnYxL2J1aWxk",
-            "X2xvZ19zdGVwX2RvY2tlcl9pbWFnZS5wcm90byLmAQoLVGFpbExvZ0xpbmUS",
+            "LnYxGiFjb250cmFjdHMudjEvYnVpbGRfbG9nX2xpbmUucHJvdG8aLmNvbnRy",
+            "YWN0cy52MS9idWlsZF9sb2dfc3RlcF9kb2NrZXJfaW1hZ2UucHJvdG8aHmdv",
+            "b2dsZS9wcm90b2J1Zi9kdXJhdGlvbi5wcm90byLmAQoLVGFpbExvZ0xpbmUS",
             "DAoEc3RlcBgBIAEoCRIsCghsb2dfbGluZRgCIAEoCzIaLmNvbnRyYWN0cy52",
             "MS5CdWlsZExvZ0xpbmUSNAoFaW1hZ2UYAyABKAsyJS5jb250cmFjdHMudjEu",
             "QnVpbGRMb2dTdGVwRG9ja2VySW1hZ2USKwoIZHVyYXRpb24YBCABKAsyGS5n",
@@ -37,7 +37,7 @@ namespace Estafette.CI.Contracts.V1 {
             "L2NvbnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnBy",
             "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogLineReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildLogLineReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Contracts.V1.TailLogLine), global::Estafette.CI.Contracts.V1.TailLogLine.Parser, new[]{ "Step", "LogLine", "Image", "Duration", "ExitCode", "Status", "AutoInjected" }, null, null, null)
           }));

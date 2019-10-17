@@ -25,12 +25,12 @@ namespace Estafette.CI.Manifest.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiNtYW5pZmVzdC52MS9lc3RhZmV0dGVfdHJpZ2dlci5wcm90bxILbWFuaWZl",
-            "c3QudjEaLG1hbmlmZXN0LnYxL2VzdGFmZXR0ZV9waXBlbGluZV90cmlnZ2Vy",
-            "LnByb3RvGittYW5pZmVzdC52MS9lc3RhZmV0dGVfcmVsZWFzZV90cmlnZ2Vy",
-            "LnByb3RvGidtYW5pZmVzdC52MS9lc3RhZmV0dGVfZ2l0X3RyaWdnZXIucHJv",
+            "c3QudjEaKG1hbmlmZXN0LnYxL2VzdGFmZXR0ZV9jcm9uX3RyaWdnZXIucHJv",
             "dG8aKm1hbmlmZXN0LnYxL2VzdGFmZXR0ZV9kb2NrZXJfdHJpZ2dlci5wcm90",
-            "bxoobWFuaWZlc3QudjEvZXN0YWZldHRlX2Nyb25fdHJpZ2dlci5wcm90bxor",
-            "bWFuaWZlc3QudjEvZXN0YWZldHRlX3B1Yl9zdWJfdHJpZ2dlci5wcm90bxow",
+            "bxonbWFuaWZlc3QudjEvZXN0YWZldHRlX2dpdF90cmlnZ2VyLnByb3RvGixt",
+            "YW5pZmVzdC52MS9lc3RhZmV0dGVfcGlwZWxpbmVfdHJpZ2dlci5wcm90bxor",
+            "bWFuaWZlc3QudjEvZXN0YWZldHRlX3B1Yl9zdWJfdHJpZ2dlci5wcm90bxor",
+            "bWFuaWZlc3QudjEvZXN0YWZldHRlX3JlbGVhc2VfdHJpZ2dlci5wcm90bxow",
             "bWFuaWZlc3QudjEvZXN0YWZldHRlX3RyaWdnZXJfYnVpbGRfYWN0aW9uLnBy",
             "b3RvGjJtYW5pZmVzdC52MS9lc3RhZmV0dGVfdHJpZ2dlcl9yZWxlYXNlX2Fj",
             "dGlvbi5wcm90byLRAwoQRXN0YWZldHRlVHJpZ2dlchI3CghwaXBlbGluZRgB",
@@ -47,7 +47,7 @@ namespace Estafette.CI.Manifest.V1 {
             "dGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3RzLWdvbGFuZy9tYW5pZmVz",
             "dF92MaoCGEVzdGFmZXR0ZS5DSS5NYW5pZmVzdC5WMWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafettePipelineTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteReleaseTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteGitTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteDockerTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteCronTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafettePubSubTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerBuildActionReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReleaseActionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteCronTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteDockerTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteGitTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafettePipelineTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafettePubSubTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteReleaseTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerBuildActionReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReleaseActionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteTrigger), global::Estafette.CI.Manifest.V1.EstafetteTrigger.Parser, new[]{ "Pipeline", "Release", "Git", "Docker", "Cron", "PubSub", "BuildAction", "ReleaseAction" }, null, null, null)
           }));

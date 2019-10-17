@@ -26,10 +26,10 @@ namespace Estafette.CI.Manifest.V1 {
           string.Concat(
             "CiRtYW5pZmVzdC52MS9lc3RhZmV0dGVfbWFuaWZlc3QucHJvdG8SC21hbmlm",
             "ZXN0LnYxGiNtYW5pZmVzdC52MS9lc3RhZmV0dGVfYnVpbGRlci5wcm90bxoj",
-            "bWFuaWZlc3QudjEvZXN0YWZldHRlX3ZlcnNpb24ucHJvdG8aI21hbmlmZXN0",
-            "LnYxL2VzdGFmZXR0ZV90cmlnZ2VyLnByb3RvGiFtYW5pZmVzdC52MS9lc3Rh",
-            "ZmV0dGVfc3RhZ2UucHJvdG8aI21hbmlmZXN0LnYxL2VzdGFmZXR0ZV9yZWxl",
-            "YXNlLnByb3RvIu8DChFFc3RhZmV0dGVNYW5pZmVzdBIuCgdidWlsZGVyGAEg",
+            "bWFuaWZlc3QudjEvZXN0YWZldHRlX3JlbGVhc2UucHJvdG8aIW1hbmlmZXN0",
+            "LnYxL2VzdGFmZXR0ZV9zdGFnZS5wcm90bxojbWFuaWZlc3QudjEvZXN0YWZl",
+            "dHRlX3RyaWdnZXIucHJvdG8aI21hbmlmZXN0LnYxL2VzdGFmZXR0ZV92ZXJz",
+            "aW9uLnByb3RvIu8DChFFc3RhZmV0dGVNYW5pZmVzdBIuCgdidWlsZGVyGAEg",
             "ASgLMh0ubWFuaWZlc3QudjEuRXN0YWZldHRlQnVpbGRlchI6CgZsYWJlbHMY",
             "AiADKAsyKi5tYW5pZmVzdC52MS5Fc3RhZmV0dGVNYW5pZmVzdC5MYWJlbHNF",
             "bnRyeRIuCgd2ZXJzaW9uGAMgASgLMh0ubWFuaWZlc3QudjEuRXN0YWZldHRl",
@@ -44,7 +44,7 @@ namespace Estafette.CI.Manifest.V1 {
             "ZS1jaS1jb250cmFjdHMtZ29sYW5nL21hbmlmZXN0X3YxqgIYRXN0YWZldHRl",
             "LkNJLk1hbmlmZXN0LlYxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteBuilderReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteVersionReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteStageReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteReleaseReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Estafette.CI.Manifest.V1.EstafetteBuilderReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteReleaseReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteStageReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteVersionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Estafette.CI.Manifest.V1.EstafetteManifest), global::Estafette.CI.Manifest.V1.EstafetteManifest.Parser, new[]{ "Builder", "Labels", "Version", "GlobalEnvVars", "Triggers", "Stages", "Releases" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
           }));
