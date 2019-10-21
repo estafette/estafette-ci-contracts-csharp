@@ -43,9 +43,10 @@ namespace Estafette.CI.Contracts.V1 {
             "C2luc2VydGVkX2F0GBAgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
             "cBIuCgp1cGRhdGVkX2F0GBEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
             "dGFtcBIrCghkdXJhdGlvbhgSIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJh",
-            "dGlvbkJdWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29u",
-            "dHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29u",
-            "dHJhY3RzLlYxYgZwcm90bzM="));
+            "dGlvbkJ7Chxpby5lc3RhZmV0dGUuY2kuY29udHJhY3RzLnYxWj9naXRodWIu",
+            "Y29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3RzLWdvbGFuZy9j",
+            "b250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3RzLlYxYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.GitCommitReflection.Descriptor, global::Estafette.CI.Contracts.V1.LabelReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseTargetReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteTriggerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

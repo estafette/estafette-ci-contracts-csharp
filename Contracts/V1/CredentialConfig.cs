@@ -30,9 +30,10 @@ namespace Estafette.CI.Contracts.V1 {
             "aXRpb25hbF9wcm9wZXJ0aWVzGAMgAygLMjguY29udHJhY3RzLnYxLkNyZWRl",
             "bnRpYWxDb25maWcuQWRkaXRpb25hbFByb3BlcnRpZXNFbnRyeRpRChlBZGRp",
             "dGlvbmFsUHJvcGVydGllc0VudHJ5EgsKA2tleRgBIAEoCRIjCgV2YWx1ZRgC",
-            "IAEoCzIULmdvb2dsZS5wcm90b2J1Zi5Bbnk6AjgBQl1aP2dpdGh1Yi5jb20v",
-            "ZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRy",
-            "YWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
+            "IAEoCzIULmdvb2dsZS5wcm90b2J1Zi5Bbnk6AjgBQnsKHGlvLmVzdGFmZXR0",
+            "ZS5jaS5jb250cmFjdHMudjFaP2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFm",
+            "ZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVzdGFm",
+            "ZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

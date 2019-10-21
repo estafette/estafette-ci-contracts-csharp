@@ -46,9 +46,10 @@ namespace Estafette.CI.Contracts.V1 {
             "Y29udHJhY3RzLnYxLkJ1aWxkVmVyc2lvbkNvbmZpZxIzCgtjcmVkZW50aWFs",
             "cxgOIAMoCzIeLmNvbnRyYWN0cy52MS5DcmVkZW50aWFsQ29uZmlnEjgKDnRy",
             "dXN0ZWRfaW1hZ2VzGA8gAygLMiAuY29udHJhY3RzLnYxLlRydXN0ZWRJbWFn",
-            "ZUNvbmZpZ0JdWj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2kt",
-            "Y29udHJhY3RzLWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0ku",
-            "Q29udHJhY3RzLlYxYgZwcm90bzM="));
+            "ZUNvbmZpZ0J7Chxpby5lc3RhZmV0dGUuY2kuY29udHJhY3RzLnYxWj9naXRo",
+            "dWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3RzLWdvbGFu",
+            "Zy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3RzLlYxYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildVersionConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CiServerConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CredentialConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.TrustedImageConfigReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteManifestReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

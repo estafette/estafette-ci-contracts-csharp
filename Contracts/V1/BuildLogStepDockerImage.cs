@@ -30,9 +30,10 @@ namespace Estafette.CI.Contracts.V1 {
             "CRILCgN0YWcYAiABKAkSEQoJaXNfcHVsbGVkGAMgASgIEhIKCmltYWdlX3Np",
             "emUYBCABKAMSMAoNcHVsbF9kdXJhdGlvbhgFIAEoCzIZLmdvb2dsZS5wcm90",
             "b2J1Zi5EdXJhdGlvbhINCgVlcnJvchgGIAEoCRISCgppc190cnVzdGVkGAcg",
-            "ASgIQl1aP2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250",
-            "cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250",
-            "cmFjdHMuVjFiBnByb3RvMw=="));
+            "ASgIQnsKHGlvLmVzdGFmZXR0ZS5jaS5jb250cmFjdHMudjFaP2dpdGh1Yi5j",
+            "b20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2Nv",
+            "bnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
