@@ -46,10 +46,10 @@ namespace Estafette.CI.Contracts.V1 {
             "Y29udHJhY3RzLnYxLkJ1aWxkVmVyc2lvbkNvbmZpZxIzCgtjcmVkZW50aWFs",
             "cxgOIAMoCzIeLmNvbnRyYWN0cy52MS5DcmVkZW50aWFsQ29uZmlnEjgKDnRy",
             "dXN0ZWRfaW1hZ2VzGA8gAygLMiAuY29udHJhY3RzLnYxLlRydXN0ZWRJbWFn",
-            "ZUNvbmZpZ0J4Chxpby5lc3RhZmV0dGUuY2kuY29udHJhY3RzLnYxWjxnaXRo",
-            "dWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktcHJvdG9zLWdvbGFuZy9j",
-            "b250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3RzLlYxYgZwcm90",
-            "bzM="));
+            "ZUNvbmZpZ0J/CiNpby5lc3RhZmV0dGUuY2kucHJvdG9zLmNvbnRyYWN0cy52",
+            "MVo8Z2l0aHViLmNvbS9lc3RhZmV0dGUvZXN0YWZldHRlLWNpLXByb3Rvcy1n",
+            "b2xhbmcvY29udHJhY3RzX3YxqgIZRXN0YWZldHRlLkNJLkNvbnRyYWN0cy5W",
+            "MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildVersionConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CiServerConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.CredentialConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.GitConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.ReleaseParamsConfigReflection.Descriptor, global::Estafette.CI.Contracts.V1.TrustedImageConfigReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteEventReflection.Descriptor, global::Estafette.CI.Manifest.V1.EstafetteManifestReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

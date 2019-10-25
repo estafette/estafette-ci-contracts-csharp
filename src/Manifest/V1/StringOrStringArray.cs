@@ -26,9 +26,10 @@ namespace Estafette.CI.Manifest.V1 {
           string.Concat(
             "CihtYW5pZmVzdC52MS9zdHJpbmdfb3Jfc3RyaW5nX2FycmF5LnByb3RvEgtt",
             "YW5pZmVzdC52MSIlChNTdHJpbmdPclN0cmluZ0FycmF5Eg4KBnZhbHVlcxgB",
-            "IAMoCUJ1Chtpby5lc3RhZmV0dGUuY2kubWFuaWZlc3QudjFaO2dpdGh1Yi5j",
-            "b20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1wcm90b3MtZ29sYW5nL21hbmlm",
-            "ZXN0X3YxqgIYRXN0YWZldHRlLkNJLk1hbmlmZXN0LlYxYgZwcm90bzM="));
+            "IAMoCUJ8CiJpby5lc3RhZmV0dGUuY2kucHJvdG9zLm1hbmlmZXN0LnYxWjtn",
+            "aXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktcHJvdG9zLWdvbGFu",
+            "Zy9tYW5pZmVzdF92MaoCGEVzdGFmZXR0ZS5DSS5NYW5pZmVzdC5WMWIGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
