@@ -27,10 +27,10 @@ namespace Estafette.CI.Contracts.V1 {
             "Ch1jb250cmFjdHMudjEvZ2l0X2NvbW1pdC5wcm90bxIMY29udHJhY3RzLnYx",
             "Gh1jb250cmFjdHMudjEvZ2l0X2F1dGhvci5wcm90byJFCglHaXRDb21taXQS",
             "DwoHbWVzc2FnZRgBIAEoCRInCgZhdXRob3IYAiABKAsyFy5jb250cmFjdHMu",
-            "djEuR2l0QXV0aG9yQnsKHGlvLmVzdGFmZXR0ZS5jaS5jb250cmFjdHMudjFa",
-            "P2dpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1jb250cmFjdHMt",
-            "Z29sYW5nL2NvbnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMu",
-            "VjFiBnByb3RvMw=="));
+            "djEuR2l0QXV0aG9yQngKHGlvLmVzdGFmZXR0ZS5jaS5jb250cmFjdHMudjFa",
+            "PGdpdGh1Yi5jb20vZXN0YWZldHRlL2VzdGFmZXR0ZS1jaS1wcm90b3MtZ29s",
+            "YW5nL2NvbnRyYWN0c192MaoCGUVzdGFmZXR0ZS5DSS5Db250cmFjdHMuVjFi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.GitAuthorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

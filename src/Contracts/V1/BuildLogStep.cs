@@ -33,10 +33,10 @@ namespace Estafette.CI.Contracts.V1 {
             "CghkdXJhdGlvbhgEIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhIt",
             "Cglsb2dfbGluZXMYBSADKAsyGi5jb250cmFjdHMudjEuQnVpbGRMb2dMaW5l",
             "EhEKCWV4aXRfY29kZRgGIAEoAxIOCgZzdGF0dXMYByABKAkSFQoNYXV0b19p",
-            "bmplY3RlZBgIIAEoCEJ7Chxpby5lc3RhZmV0dGUuY2kuY29udHJhY3RzLnYx",
-            "Wj9naXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktY29udHJhY3Rz",
-            "LWdvbGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3Rz",
-            "LlYxYgZwcm90bzM="));
+            "bmplY3RlZBgIIAEoCEJ4Chxpby5lc3RhZmV0dGUuY2kuY29udHJhY3RzLnYx",
+            "WjxnaXRodWIuY29tL2VzdGFmZXR0ZS9lc3RhZmV0dGUtY2ktcHJvdG9zLWdv",
+            "bGFuZy9jb250cmFjdHNfdjGqAhlFc3RhZmV0dGUuQ0kuQ29udHJhY3RzLlYx",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Estafette.CI.Contracts.V1.BuildLogLineReflection.Descriptor, global::Estafette.CI.Contracts.V1.BuildLogStepDockerImageReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

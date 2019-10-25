@@ -27,10 +27,10 @@ namespace Estafette.CI.Contracts.V1 {
             "Cjljb250cmFjdHMudjEvY29udGFpbmVyX3JlcG9zaXRvcnlfY3JlZGVudGlh",
             "bF9jb25maWcucHJvdG8SDGNvbnRyYWN0cy52MSJdCiNDb250YWluZXJSZXBv",
             "c2l0b3J5Q3JlZGVudGlhbENvbmZpZxISCgpyZXBvc2l0b3J5GAEgASgJEhAK",
-            "CHVzZXJuYW1lGAIgASgJEhAKCHBhc3N3b3JkGAMgASgJQnsKHGlvLmVzdGFm",
-            "ZXR0ZS5jaS5jb250cmFjdHMudjFaP2dpdGh1Yi5jb20vZXN0YWZldHRlL2Vz",
-            "dGFmZXR0ZS1jaS1jb250cmFjdHMtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVz",
-            "dGFmZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
+            "CHVzZXJuYW1lGAIgASgJEhAKCHBhc3N3b3JkGAMgASgJQngKHGlvLmVzdGFm",
+            "ZXR0ZS5jaS5jb250cmFjdHMudjFaPGdpdGh1Yi5jb20vZXN0YWZldHRlL2Vz",
+            "dGFmZXR0ZS1jaS1wcm90b3MtZ29sYW5nL2NvbnRyYWN0c192MaoCGUVzdGFm",
+            "ZXR0ZS5DSS5Db250cmFjdHMuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {

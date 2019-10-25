@@ -26,10 +26,10 @@ namespace Estafette.CI.Manifest.V1 {
           string.Concat(
             "CiptYW5pZmVzdC52MS9lc3RhZmV0dGVfZG9ja2VyX3RyaWdnZXIucHJvdG8S",
             "C21hbmlmZXN0LnYxIkMKFkVzdGFmZXR0ZURvY2tlclRyaWdnZXISDQoFZXZl",
-            "bnQYASABKAkSDQoFaW1hZ2UYAiABKAkSCwoDdGFnGAMgASgJQngKG2lvLmVz",
-            "dGFmZXR0ZS5jaS5tYW5pZmVzdC52MVo+Z2l0aHViLmNvbS9lc3RhZmV0dGUv",
-            "ZXN0YWZldHRlLWNpLWNvbnRyYWN0cy1nb2xhbmcvbWFuaWZlc3RfdjGqAhhF",
-            "c3RhZmV0dGUuQ0kuTWFuaWZlc3QuVjFiBnByb3RvMw=="));
+            "bnQYASABKAkSDQoFaW1hZ2UYAiABKAkSCwoDdGFnGAMgASgJQnUKG2lvLmVz",
+            "dGFmZXR0ZS5jaS5tYW5pZmVzdC52MVo7Z2l0aHViLmNvbS9lc3RhZmV0dGUv",
+            "ZXN0YWZldHRlLWNpLXByb3Rvcy1nb2xhbmcvbWFuaWZlc3RfdjGqAhhFc3Rh",
+            "ZmV0dGUuQ0kuTWFuaWZlc3QuVjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
