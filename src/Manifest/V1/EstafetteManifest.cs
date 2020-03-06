@@ -261,14 +261,14 @@ namespace Estafette.Ci.Manifest.V1 {
       }
       if (other.builder_ != null) {
         if (builder_ == null) {
-          builder_ = new global::Estafette.Ci.Manifest.V1.EstafetteBuilder();
+          Builder = new global::Estafette.Ci.Manifest.V1.EstafetteBuilder();
         }
         Builder.MergeFrom(other.Builder);
       }
       labels_.Add(other.labels_);
       if (other.version_ != null) {
         if (version_ == null) {
-          version_ = new global::Estafette.Ci.Manifest.V1.EstafetteVersion();
+          Version = new global::Estafette.Ci.Manifest.V1.EstafetteVersion();
         }
         Version.MergeFrom(other.Version);
       }
@@ -289,9 +289,9 @@ namespace Estafette.Ci.Manifest.V1 {
             break;
           case 10: {
             if (builder_ == null) {
-              builder_ = new global::Estafette.Ci.Manifest.V1.EstafetteBuilder();
+              Builder = new global::Estafette.Ci.Manifest.V1.EstafetteBuilder();
             }
-            input.ReadMessage(builder_);
+            input.ReadMessage(Builder);
             break;
           }
           case 18: {
@@ -300,9 +300,9 @@ namespace Estafette.Ci.Manifest.V1 {
           }
           case 26: {
             if (version_ == null) {
-              version_ = new global::Estafette.Ci.Manifest.V1.EstafetteVersion();
+              Version = new global::Estafette.Ci.Manifest.V1.EstafetteVersion();
             }
-            input.ReadMessage(version_);
+            input.ReadMessage(Version);
             break;
           }
           case 34: {

@@ -216,7 +216,7 @@ namespace Estafette.Ci.Contracts.V1 {
       }
       if (other.timestampTime_ != null) {
         if (timestampTime_ == null) {
-          timestampTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          TimestampTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         TimestampTime.MergeFrom(other.TimestampTime);
       }
@@ -243,9 +243,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 18: {
             if (timestampTime_ == null) {
-              timestampTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              TimestampTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(timestampTime_);
+            input.ReadMessage(TimestampTime);
             break;
           }
           case 26: {

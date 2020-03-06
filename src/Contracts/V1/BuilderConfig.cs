@@ -460,7 +460,7 @@ namespace Estafette.Ci.Contracts.V1 {
       }
       if (other.manifest_ != null) {
         if (manifest_ == null) {
-          manifest_ = new global::Estafette.Ci.Manifest.V1.EstafetteManifest();
+          Manifest = new global::Estafette.Ci.Manifest.V1.EstafetteManifest();
         }
         Manifest.MergeFrom(other.Manifest);
       }
@@ -473,31 +473,31 @@ namespace Estafette.Ci.Contracts.V1 {
       events_.Add(other.events_);
       if (other.ciServer_ != null) {
         if (ciServer_ == null) {
-          ciServer_ = new global::Estafette.Ci.Contracts.V1.CiServerConfig();
+          CiServer = new global::Estafette.Ci.Contracts.V1.CiServerConfig();
         }
         CiServer.MergeFrom(other.CiServer);
       }
       if (other.buildParams_ != null) {
         if (buildParams_ == null) {
-          buildParams_ = new global::Estafette.Ci.Contracts.V1.BuildParamsConfig();
+          BuildParams = new global::Estafette.Ci.Contracts.V1.BuildParamsConfig();
         }
         BuildParams.MergeFrom(other.BuildParams);
       }
       if (other.releaseParams_ != null) {
         if (releaseParams_ == null) {
-          releaseParams_ = new global::Estafette.Ci.Contracts.V1.ReleaseParamsConfig();
+          ReleaseParams = new global::Estafette.Ci.Contracts.V1.ReleaseParamsConfig();
         }
         ReleaseParams.MergeFrom(other.ReleaseParams);
       }
       if (other.git_ != null) {
         if (git_ == null) {
-          git_ = new global::Estafette.Ci.Contracts.V1.GitConfig();
+          Git = new global::Estafette.Ci.Contracts.V1.GitConfig();
         }
         Git.MergeFrom(other.Git);
       }
       if (other.buildVersion_ != null) {
         if (buildVersion_ == null) {
-          buildVersion_ = new global::Estafette.Ci.Contracts.V1.BuildVersionConfig();
+          BuildVersion = new global::Estafette.Ci.Contracts.V1.BuildVersionConfig();
         }
         BuildVersion.MergeFrom(other.BuildVersion);
       }
@@ -532,9 +532,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 42: {
             if (manifest_ == null) {
-              manifest_ = new global::Estafette.Ci.Manifest.V1.EstafetteManifest();
+              Manifest = new global::Estafette.Ci.Manifest.V1.EstafetteManifest();
             }
-            input.ReadMessage(manifest_);
+            input.ReadMessage(Manifest);
             break;
           }
           case 50: {
@@ -551,37 +551,37 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 74: {
             if (ciServer_ == null) {
-              ciServer_ = new global::Estafette.Ci.Contracts.V1.CiServerConfig();
+              CiServer = new global::Estafette.Ci.Contracts.V1.CiServerConfig();
             }
-            input.ReadMessage(ciServer_);
+            input.ReadMessage(CiServer);
             break;
           }
           case 82: {
             if (buildParams_ == null) {
-              buildParams_ = new global::Estafette.Ci.Contracts.V1.BuildParamsConfig();
+              BuildParams = new global::Estafette.Ci.Contracts.V1.BuildParamsConfig();
             }
-            input.ReadMessage(buildParams_);
+            input.ReadMessage(BuildParams);
             break;
           }
           case 90: {
             if (releaseParams_ == null) {
-              releaseParams_ = new global::Estafette.Ci.Contracts.V1.ReleaseParamsConfig();
+              ReleaseParams = new global::Estafette.Ci.Contracts.V1.ReleaseParamsConfig();
             }
-            input.ReadMessage(releaseParams_);
+            input.ReadMessage(ReleaseParams);
             break;
           }
           case 98: {
             if (git_ == null) {
-              git_ = new global::Estafette.Ci.Contracts.V1.GitConfig();
+              Git = new global::Estafette.Ci.Contracts.V1.GitConfig();
             }
-            input.ReadMessage(git_);
+            input.ReadMessage(Git);
             break;
           }
           case 106: {
             if (buildVersion_ == null) {
-              buildVersion_ = new global::Estafette.Ci.Contracts.V1.BuildVersionConfig();
+              BuildVersion = new global::Estafette.Ci.Contracts.V1.BuildVersionConfig();
             }
-            input.ReadMessage(buildVersion_);
+            input.ReadMessage(BuildVersion);
             break;
           }
           case 114: {

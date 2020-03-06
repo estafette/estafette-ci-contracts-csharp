@@ -289,7 +289,7 @@ namespace Estafette.Ci.Contracts.V1 {
       steps_.Add(other.steps_);
       if (other.insertedAtTime_ != null) {
         if (insertedAtTime_ == null) {
-          insertedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          InsertedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         InsertedAtTime.MergeFrom(other.InsertedAtTime);
       }
@@ -330,9 +330,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 58: {
             if (insertedAtTime_ == null) {
-              insertedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              InsertedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(insertedAtTime_);
+            input.ReadMessage(InsertedAtTime);
             break;
           }
         }

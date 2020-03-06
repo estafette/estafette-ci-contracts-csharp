@@ -173,7 +173,7 @@ namespace Estafette.Ci.Contracts.V1 {
       }
       if (other.author_ != null) {
         if (author_ == null) {
-          author_ = new global::Estafette.Ci.Contracts.V1.GitAuthor();
+          Author = new global::Estafette.Ci.Contracts.V1.GitAuthor();
         }
         Author.MergeFrom(other.Author);
       }
@@ -194,9 +194,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 18: {
             if (author_ == null) {
-              author_ = new global::Estafette.Ci.Contracts.V1.GitAuthor();
+              Author = new global::Estafette.Ci.Contracts.V1.GitAuthor();
             }
-            input.ReadMessage(author_);
+            input.ReadMessage(Author);
             break;
           }
         }

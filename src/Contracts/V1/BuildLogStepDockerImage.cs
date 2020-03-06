@@ -289,7 +289,7 @@ namespace Estafette.Ci.Contracts.V1 {
       }
       if (other.pullDuration_ != null) {
         if (pullDuration_ == null) {
-          pullDuration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+          PullDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         PullDuration.MergeFrom(other.PullDuration);
       }
@@ -328,9 +328,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 42: {
             if (pullDuration_ == null) {
-              pullDuration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+              PullDuration = new global::Google.Protobuf.WellKnownTypes.Duration();
             }
-            input.ReadMessage(pullDuration_);
+            input.ReadMessage(PullDuration);
             break;
           }
           case 50: {

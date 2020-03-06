@@ -166,7 +166,7 @@ namespace Estafette.Ci.Contracts.V1 {
       items_.Add(other.items_);
       if (other.pagination_ != null) {
         if (pagination_ == null) {
-          pagination_ = new global::Estafette.Ci.Contracts.V1.Pagination();
+          Pagination = new global::Estafette.Ci.Contracts.V1.Pagination();
         }
         Pagination.MergeFrom(other.Pagination);
       }
@@ -187,9 +187,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 18: {
             if (pagination_ == null) {
-              pagination_ = new global::Estafette.Ci.Contracts.V1.Pagination();
+              Pagination = new global::Estafette.Ci.Contracts.V1.Pagination();
             }
-            input.ReadMessage(pagination_);
+            input.ReadMessage(Pagination);
             break;
           }
         }

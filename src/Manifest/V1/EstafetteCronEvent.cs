@@ -148,7 +148,7 @@ namespace Estafette.Ci.Manifest.V1 {
       }
       if (other.time_ != null) {
         if (time_ == null) {
-          time_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          Time = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         Time.MergeFrom(other.Time);
       }
@@ -165,9 +165,9 @@ namespace Estafette.Ci.Manifest.V1 {
             break;
           case 10: {
             if (time_ == null) {
-              time_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              Time = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(time_);
+            input.ReadMessage(Time);
             break;
           }
         }

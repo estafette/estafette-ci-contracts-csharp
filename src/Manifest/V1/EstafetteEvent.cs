@@ -291,43 +291,43 @@ namespace Estafette.Ci.Manifest.V1 {
       }
       if (other.pipeline_ != null) {
         if (pipeline_ == null) {
-          pipeline_ = new global::Estafette.Ci.Manifest.V1.EstafettePipelineEvent();
+          Pipeline = new global::Estafette.Ci.Manifest.V1.EstafettePipelineEvent();
         }
         Pipeline.MergeFrom(other.Pipeline);
       }
       if (other.release_ != null) {
         if (release_ == null) {
-          release_ = new global::Estafette.Ci.Manifest.V1.EstafetteReleaseEvent();
+          Release = new global::Estafette.Ci.Manifest.V1.EstafetteReleaseEvent();
         }
         Release.MergeFrom(other.Release);
       }
       if (other.git_ != null) {
         if (git_ == null) {
-          git_ = new global::Estafette.Ci.Manifest.V1.EstafetteGitEvent();
+          Git = new global::Estafette.Ci.Manifest.V1.EstafetteGitEvent();
         }
         Git.MergeFrom(other.Git);
       }
       if (other.docker_ != null) {
         if (docker_ == null) {
-          docker_ = new global::Estafette.Ci.Manifest.V1.EstafetteDockerEvent();
+          Docker = new global::Estafette.Ci.Manifest.V1.EstafetteDockerEvent();
         }
         Docker.MergeFrom(other.Docker);
       }
       if (other.cron_ != null) {
         if (cron_ == null) {
-          cron_ = new global::Estafette.Ci.Manifest.V1.EstafetteCronEvent();
+          Cron = new global::Estafette.Ci.Manifest.V1.EstafetteCronEvent();
         }
         Cron.MergeFrom(other.Cron);
       }
       if (other.pubSub_ != null) {
         if (pubSub_ == null) {
-          pubSub_ = new global::Estafette.Ci.Manifest.V1.EstafettePubSubEvent();
+          PubSub = new global::Estafette.Ci.Manifest.V1.EstafettePubSubEvent();
         }
         PubSub.MergeFrom(other.PubSub);
       }
       if (other.manual_ != null) {
         if (manual_ == null) {
-          manual_ = new global::Estafette.Ci.Manifest.V1.EstafetteManualEvent();
+          Manual = new global::Estafette.Ci.Manifest.V1.EstafetteManualEvent();
         }
         Manual.MergeFrom(other.Manual);
       }
@@ -344,51 +344,51 @@ namespace Estafette.Ci.Manifest.V1 {
             break;
           case 10: {
             if (pipeline_ == null) {
-              pipeline_ = new global::Estafette.Ci.Manifest.V1.EstafettePipelineEvent();
+              Pipeline = new global::Estafette.Ci.Manifest.V1.EstafettePipelineEvent();
             }
-            input.ReadMessage(pipeline_);
+            input.ReadMessage(Pipeline);
             break;
           }
           case 18: {
             if (release_ == null) {
-              release_ = new global::Estafette.Ci.Manifest.V1.EstafetteReleaseEvent();
+              Release = new global::Estafette.Ci.Manifest.V1.EstafetteReleaseEvent();
             }
-            input.ReadMessage(release_);
+            input.ReadMessage(Release);
             break;
           }
           case 26: {
             if (git_ == null) {
-              git_ = new global::Estafette.Ci.Manifest.V1.EstafetteGitEvent();
+              Git = new global::Estafette.Ci.Manifest.V1.EstafetteGitEvent();
             }
-            input.ReadMessage(git_);
+            input.ReadMessage(Git);
             break;
           }
           case 34: {
             if (docker_ == null) {
-              docker_ = new global::Estafette.Ci.Manifest.V1.EstafetteDockerEvent();
+              Docker = new global::Estafette.Ci.Manifest.V1.EstafetteDockerEvent();
             }
-            input.ReadMessage(docker_);
+            input.ReadMessage(Docker);
             break;
           }
           case 42: {
             if (cron_ == null) {
-              cron_ = new global::Estafette.Ci.Manifest.V1.EstafetteCronEvent();
+              Cron = new global::Estafette.Ci.Manifest.V1.EstafetteCronEvent();
             }
-            input.ReadMessage(cron_);
+            input.ReadMessage(Cron);
             break;
           }
           case 50: {
             if (pubSub_ == null) {
-              pubSub_ = new global::Estafette.Ci.Manifest.V1.EstafettePubSubEvent();
+              PubSub = new global::Estafette.Ci.Manifest.V1.EstafettePubSubEvent();
             }
-            input.ReadMessage(pubSub_);
+            input.ReadMessage(PubSub);
             break;
           }
           case 58: {
             if (manual_ == null) {
-              manual_ = new global::Estafette.Ci.Manifest.V1.EstafetteManualEvent();
+              Manual = new global::Estafette.Ci.Manifest.V1.EstafetteManualEvent();
             }
-            input.ReadMessage(manual_);
+            input.ReadMessage(Manual);
             break;
           }
         }

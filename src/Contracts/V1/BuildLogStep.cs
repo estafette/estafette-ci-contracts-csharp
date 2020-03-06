@@ -299,7 +299,7 @@ namespace Estafette.Ci.Contracts.V1 {
       }
       if (other.image_ != null) {
         if (image_ == null) {
-          image_ = new global::Estafette.Ci.Contracts.V1.BuildLogStepDockerImage();
+          Image = new global::Estafette.Ci.Contracts.V1.BuildLogStepDockerImage();
         }
         Image.MergeFrom(other.Image);
       }
@@ -308,7 +308,7 @@ namespace Estafette.Ci.Contracts.V1 {
       }
       if (other.duration_ != null) {
         if (duration_ == null) {
-          duration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+          Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         Duration.MergeFrom(other.Duration);
       }
@@ -339,9 +339,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 18: {
             if (image_ == null) {
-              image_ = new global::Estafette.Ci.Contracts.V1.BuildLogStepDockerImage();
+              Image = new global::Estafette.Ci.Contracts.V1.BuildLogStepDockerImage();
             }
-            input.ReadMessage(image_);
+            input.ReadMessage(Image);
             break;
           }
           case 24: {
@@ -350,9 +350,9 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 34: {
             if (duration_ == null) {
-              duration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
             }
-            input.ReadMessage(duration_);
+            input.ReadMessage(Duration);
             break;
           }
           case 42: {

@@ -552,25 +552,25 @@ namespace Estafette.Ci.Contracts.V1 {
       events_.Add(other.events_);
       if (other.insertedAtTime_ != null) {
         if (insertedAtTime_ == null) {
-          insertedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          InsertedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         InsertedAtTime.MergeFrom(other.InsertedAtTime);
       }
       if (other.updatedAtTime_ != null) {
         if (updatedAtTime_ == null) {
-          updatedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          UpdatedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         UpdatedAtTime.MergeFrom(other.UpdatedAtTime);
       }
       if (other.duration_ != null) {
         if (duration_ == null) {
-          duration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+          Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         Duration.MergeFrom(other.Duration);
       }
       if (other.lastUpdatedAtTime_ != null) {
         if (lastUpdatedAtTime_ == null) {
-          lastUpdatedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          LastUpdatedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         LastUpdatedAtTime.MergeFrom(other.LastUpdatedAtTime);
       }
@@ -647,30 +647,30 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 130: {
             if (insertedAtTime_ == null) {
-              insertedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              InsertedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(insertedAtTime_);
+            input.ReadMessage(InsertedAtTime);
             break;
           }
           case 138: {
             if (updatedAtTime_ == null) {
-              updatedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              UpdatedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(updatedAtTime_);
+            input.ReadMessage(UpdatedAtTime);
             break;
           }
           case 146: {
             if (duration_ == null) {
-              duration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
             }
-            input.ReadMessage(duration_);
+            input.ReadMessage(Duration);
             break;
           }
           case 154: {
             if (lastUpdatedAtTime_ == null) {
-              lastUpdatedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              LastUpdatedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(lastUpdatedAtTime_);
+            input.ReadMessage(LastUpdatedAtTime);
             break;
           }
         }

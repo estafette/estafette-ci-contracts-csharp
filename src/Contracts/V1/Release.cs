@@ -382,19 +382,19 @@ namespace Estafette.Ci.Contracts.V1 {
       events_.Add(other.events_);
       if (other.insertedAtTime_ != null) {
         if (insertedAtTime_ == null) {
-          insertedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          InsertedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         InsertedAtTime.MergeFrom(other.InsertedAtTime);
       }
       if (other.updatedAtTime_ != null) {
         if (updatedAtTime_ == null) {
-          updatedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+          UpdatedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         UpdatedAtTime.MergeFrom(other.UpdatedAtTime);
       }
       if (other.duration_ != null) {
         if (duration_ == null) {
-          duration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+          Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         Duration.MergeFrom(other.Duration);
       }
@@ -443,23 +443,23 @@ namespace Estafette.Ci.Contracts.V1 {
           }
           case 74: {
             if (insertedAtTime_ == null) {
-              insertedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              InsertedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(insertedAtTime_);
+            input.ReadMessage(InsertedAtTime);
             break;
           }
           case 82: {
             if (updatedAtTime_ == null) {
-              updatedAtTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+              UpdatedAtTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
-            input.ReadMessage(updatedAtTime_);
+            input.ReadMessage(UpdatedAtTime);
             break;
           }
           case 90: {
             if (duration_ == null) {
-              duration_ = new global::Google.Protobuf.WellKnownTypes.Duration();
+              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
             }
-            input.ReadMessage(duration_);
+            input.ReadMessage(Duration);
             break;
           }
         }

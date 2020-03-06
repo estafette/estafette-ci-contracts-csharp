@@ -247,7 +247,7 @@ namespace Estafette.Ci.Manifest.V1 {
       }
       if (other.releaseBranch_ != null) {
         if (releaseBranch_ == null) {
-          releaseBranch_ = new global::Estafette.Ci.Manifest.V1.StringOrStringArray();
+          ReleaseBranch = new global::Estafette.Ci.Manifest.V1.StringOrStringArray();
         }
         ReleaseBranch.MergeFrom(other.ReleaseBranch);
       }
@@ -280,9 +280,9 @@ namespace Estafette.Ci.Manifest.V1 {
           }
           case 42: {
             if (releaseBranch_ == null) {
-              releaseBranch_ = new global::Estafette.Ci.Manifest.V1.StringOrStringArray();
+              ReleaseBranch = new global::Estafette.Ci.Manifest.V1.StringOrStringArray();
             }
-            input.ReadMessage(releaseBranch_);
+            input.ReadMessage(ReleaseBranch);
             break;
           }
         }
